@@ -1,0 +1,1243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml-tag xmlns="http://www.gvsig.gva.es">
+    <property key="className" value="com.iver.cit.gvsig.project.Project"/>
+    <property key="VERSION" value="1.0"/>
+    <property key="comments"/>
+    <property key="creationDate" value="17-dic-2010"/>
+    <property key="numExtents" value="0"/>
+    <property key="numCameras" value="0"/>
+    <property key="data-source-count" value="16"/>
+    <property key="numDocuments" value="1"/>
+    <property key="modificationDate" value="17-dic-2010"/>
+    <property key="modified" value="false"/>
+    <property key="name" value="Minho_viario.gvp"/>
+    <property key="owner"/>
+    <property key="selectionColor" value="255,255,0,255"/>
+    <property key="projection" value="EPSG:23029"/>
+    <property key="followHeaderEncoding" value="true"/>
+    <xml-tag>
+        <property key="type" value="sameDriverFile"/>
+        <property key="gdbmsname" value="gdbms4d34234e_12cf551087a__7ff5"/>
+    </xml-tag>
+    <xml-tag>
+        <property key="type" value="sameDriverFile"/>
+        <property key="gdbmsname" value="gdbms4d34234e_12cf551087a__7ff6"/>
+    </xml-tag>
+    <xml-tag>
+        <property key="type" value="sameDriverFile"/>
+        <property key="gdbmsname" value="gdbms4d34234e_12cf551087a__7ff7"/>
+    </xml-tag>
+    <xml-tag>
+        <property key="type" value="sameDriverFile"/>
+        <property key="gdbmsname" value="gdbms4d34234e_12cf551087a__7ff8"/>
+    </xml-tag>
+    <xml-tag>
+        <property key="type" value="sameDriverFile"/>
+        <property key="gdbmsname" value="gdbms4d34234e_12cf551087a__7ff1"/>
+    </xml-tag>
+    <xml-tag>
+        <property key="type" value="sameDriverFile"/>
+        <property key="gdbmsname" value="gdbms4d34234e_12cf551087a__7ff2"/>
+    </xml-tag>
+    <xml-tag>
+        <property key="type" value="sameDriverFile"/>
+        <property key="gdbmsname" value="gdbms4d34234e_12cf551087a__7ff3"/>
+    </xml-tag>
+    <xml-tag>
+        <property key="type" value="sameDriverFile"/>
+        <property key="gdbmsname" value="gdbms4d34234e_12cf551087a__7ff4"/>
+    </xml-tag>
+    <xml-tag>
+        <property key="type" value="sameDriverFile"/>
+        <property key="gdbmsname" value="gdbms4d34234e_12cf551087a__7ff9"/>
+    </xml-tag>
+    <xml-tag>
+        <property key="type" value="sameDriverFile"/>
+        <property key="gdbmsname" value="gdbms4d34234e_12cf551087a__8000"/>
+    </xml-tag>
+    <xml-tag>
+        <property key="type" value="sameDriverFile"/>
+        <property key="gdbmsname" value="gdbms4d34234e_12cf551087a__7ffd"/>
+    </xml-tag>
+    <xml-tag>
+        <property key="type" value="sameDriverFile"/>
+        <property key="gdbmsname" value="gdbms4d34234e_12cf551087a__7ffc"/>
+    </xml-tag>
+    <xml-tag>
+        <property key="type" value="sameDriverFile"/>
+        <property key="gdbmsname" value="gdbms4d34234e_12cf551087a__7ffb"/>
+    </xml-tag>
+    <xml-tag>
+        <property key="type" value="sameDriverFile"/>
+        <property key="gdbmsname" value="gdbms4d34234e_12cf551087a__7ffa"/>
+    </xml-tag>
+    <xml-tag>
+        <property key="type" value="sameDriverFile"/>
+        <property key="gdbmsname" value="gdbms4d34234e_12cf551087a__7fff"/>
+    </xml-tag>
+    <xml-tag>
+        <property key="type" value="sameDriverFile"/>
+        <property key="gdbmsname" value="gdbms4d34234e_12cf551087a__7ffe"/>
+    </xml-tag>
+    <xml-tag>
+        <property key="className" value="ProjectView"/>
+        <property key="comment"/>
+        <property key="creationDate" value="17/12/10 18:11"/>
+        <property key="name" value="Sin título - 0"/>
+        <property key="owner"/>
+        <property key="numViews" value="1"/>
+        <property key="m_selectedField"/>
+        <property key="m_typeLink" value="0"/>
+        <property key="m_extLink"/>
+        <property key="mapOverView" value="true"/>
+        <xml-tag>
+            <property key="className" value="com.iver.cit.gvsig.fmap.MapContext"/>
+            <xml-tag>
+                <property key="className" value="com.iver.cit.gvsig.fmap.ViewPort"/>
+                <property key="adjustedExtentX" value="566477.8724440789"/>
+                <property key="adjustedExtentY" value="4801153.703761018"/>
+                <property key="adjustedExtentW" value="397.969407216061"/>
+                <property key="adjustedExtentH" value="232.72009760141373"/>
+                <property key="backColor" value="255,255,255,255"/>
+                <property key="dist1pixel" value="0.36080634593963623"/>
+                <property key="dist3pixel" value="1.0824190378189087"/>
+                <property key="distanceUnits" value="1"/>
+                <property key="extentX" value="566599.6678083834"/>
+                <property key="extentY" value="4801153.703761018"/>
+                <property key="extentW" value="154.3786786069395"/>
+                <property key="extentH" value="232.72009760141373"/>
+                <property key="mapUnits" value="1"/>
+                <property key="offsetX" value="0.0"/>
+                <property key="offsetY" value="0.0"/>
+                <property key="proj" value="EPSG:23029"/>
+                <property key="scale" value="2.7715698242130755"/>
+                <xml-tag>
+                    <property key="className" value="com.iver.cit.gvsig.fmap.ExtentHistory"/>
+                    <property key="num" value="10"/>
+                    <property key="numrec" value="10"/>
+                    <property key="extent0X" value="567130.4751483147"/>
+                    <property key="extent0Y" value="4799006.070131755"/>
+                    <property key="extent0W" value="192.35250471753864"/>
+                    <property key="extent0H" value="182.22868868328604"/>
+                    <property key="extent1X" value="566792.7924976412"/>
+                    <property key="extent1Y" value="4800952.887316788"/>
+                    <property key="extent1W" value="192.35250471753864"/>
+                    <property key="extent1H" value="182.22868868328604"/>
+                    <property key="extent2X" value="566888.96875"/>
+                    <property key="extent2Y" value="4800410.014950166"/>
+                    <property key="extent2W" value="760.7840531561524"/>
+                    <property key="extent2H" value="633.9867109628394"/>
+                    <property key="extent3X" value="565906.2893480066"/>
+                    <property key="extent3Y" value="4801392.694352159"/>
+                    <property key="extent3W" value="760.7840531561524"/>
+                    <property key="extent3H" value="633.9867109628394"/>
+                    <property key="extent4X" value="566286.6813745847"/>
+                    <property key="extent4Y" value="4801044.001661129"/>
+                    <property key="extent4W" value="538.8887043190189"/>
+                    <property key="extent4H" value="665.6860465118662"/>
+                    <property key="extent5X" value="566016.7209867303"/>
+                    <property key="extent5Y" value="4800711.674673568"/>
+                    <property key="extent5W" value="1077.7774086380377"/>
+                    <property key="extent5H" value="1331.3720930237323"/>
+                    <property key="extent6X" value="566474.0760512439"/>
+                    <property key="extent6Y" value="4801093.541087846"/>
+                    <property key="extent6W" value="443.79069767461624"/>
+                    <property key="extent6H" value="371.545700378716"/>
+                    <property key="extent7X" value="566581.6274907398"/>
+                    <property key="extent7Y" value="4801202.412618655"/>
+                    <property key="extent7W" value="154.3786786069395"/>
+                    <property key="extent7H" value="232.72009760141373"/>
+                    <property key="extent8X" value="566586.67877968"/>
+                    <property key="extent8Y" value="4801191.949234421"/>
+                    <property key="extent8W" value="154.3786786069395"/>
+                    <property key="extent8H" value="232.72009760141373"/>
+                    <property key="extent9X" value="566612.6568370868"/>
+                    <property key="extent9Y" value="4801257.976796997"/>
+                    <property key="extent9W" value="154.3786786069395"/>
+                    <property key="extent9H" value="232.72009760141373"/>
+                </xml-tag>
+            </xml-tag>
+            <xml-tag>
+                <property key="className" value="com.iver.cit.gvsig.fmap.layers.FLayers"/>
+                <property key="active" value="false"/>
+                <property key="name"/>
+                <property key="minScale" value="-1.0"/>
+                <property key="maxScale" value="-1.0"/>
+                <property key="visible" value="true"/>
+                <property key="transparency" value="0"/>
+                <property key="isInTOC" value="true"/>
+                <property key="numProperties" value="0"/>
+                <property key="numLayers" value="14"/>
+                <property key="LayerNames" value="Municipio ,Núcleos (polígono) ,Edificaciones privadas ,Viario de Base ,Muros ,Hidrografia ,Tramos de carretera no inventariadas (polígono) ,Calles ,Tramos de carretera no inventariadas (línea) ,Tramos de carretera (polígono) ,Tramos de carretera (línea) ,Aceras ,Vallas\,  alambradas y setos ,Textos de lugares"/>
+                <xml-tag>
+                    <property key="className" value="com.iver.cit.gvsig.fmap.layers.FLyrVect"/>
+                    <property key="active" value="false"/>
+                    <property key="name" value="Municipio"/>
+                    <property key="minScale" value="-1.0"/>
+                    <property key="maxScale" value="-1.0"/>
+                    <property key="visible" value="true"/>
+                    <property key="proj" value="EPSG:23029"/>
+                    <property key="transparency" value="0"/>
+                    <property key="isInTOC" value="true"/>
+                    <property key="numProperties" value="0"/>
+                    <property key="type" value="vectorial"/>
+                    <property key="db" value="PostGIS JDBC Driver"/>
+                    <property key="recordset-name" value="gdbms4d34234e_12cf551087a__7fff"/>
+                    <property key="driverName" value="PostGIS JDBC Driver"/>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.rendering.SingleSymbolLegend"/>
+                        <property key="labelFieldName"/>
+                        <property key="labelHeightFieldName"/>
+                        <property key="labelRotationFieldName"/>
+                        <xml-tag>
+                            <property key="className" value="com.iver.cit.gvsig.fmap.core.v02.FSymbol"/>
+                            <property key="m_symbolType" value="4"/>
+                            <property key="m_Style" value="1"/>
+                            <property key="m_useOutline" value="true"/>
+                            <property key="m_Color" value="249,249,249,255"/>
+                            <property key="m_outlineColor" value="128,128,128,255"/>
+                            <property key="m_bUseFontSize" value="true"/>
+                            <property key="m_bDrawShape" value="true"/>
+                            <property key="m_Size" value="2"/>
+                            <property key="m_Rotation" value="0"/>
+                            <property key="m_LinePattern" value="0"/>
+                            <property key="m_isArrowStroke" value="0"/>
+                            <property key="m_stroke" value="1.0"/>
+                            <property key="m_bUseSize" value="false"/>
+                            <property key="m_AlingVert" value="0"/>
+                            <property key="m_AlingHoriz" value="0"/>
+                            <property key="m_Descrip"/>
+                            <property key="rgb" value="-394759"/>
+                        </xml-tag>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.layers.SelectionSupport"/>
+                        <property key="numBitSet" value="0"/>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.drivers.jdbc.postgis.PostGisDriver"/>
+                        <property key="catalog" value="EIEL_MUNICIPAL"/>
+                        <property key="username" value="aeiris"/>
+                        <property key="driverclass" value="org.postgresql.Driver"/>
+                        <property key="tablename" value="mun_encuestados"/>
+                        <property key="fields" value="geoid ,fase ,provincia ,municipio ,censo_dere ,padron ,pob_estaci ,viv_total ,viv_p_ocup ,viv_s_ocup ,viv_desocu ,viv_otras ,otros_aloj ,esta_colec ,plazas_ec ,hoteles ,apartamentos ,casas_rural ,longi_011 ,aag_v_cone ,aag_v_ncon ,aag_c_invi ,aag_c_vera ,aag_v_expr ,aag_v_depr ,aag_l_defi ,aag_v_defi ,aag_pr_def ,aag_pe_def ,aau_vivien ,aau_pob_re ,aau_pob_es ,aau_def_vi ,aau_def_re ,aau_def_es ,aau_fecont ,aau_fencon ,ramal_014 ,syd_v_cone ,syd_v_ncon ,syd_l_defi ,syd_v_defi ,syd_pr_def ,syd_pe_def ,syd_c_desa ,syd_c_trat ,vivien_015 ,pob_re_015 ,pob_es_015 ,pob_vi_def ,pob_re_def ,pob_es_def ,produ_basu ,rba_v_sser ,rba_pr_sse ,rba_pe_sse ,rba_serlim ,puntos_luz ,alu_v_sin ,alu_l_sin ,syd_reutili_urb ,syd_reutili_rus ,syd_reutili_ind ,contenedores ,aag_gestion ,aag_titular ,syd_gestion ,syd_titular"/>
+                        <property key="FID" value="geoid"/>
+                        <property key="THE_GEOM" value="geometria"/>
+                        <property key="whereclause" value="WHERE MUNICIPIO='048'"/>
+                        <property key="SRID" value="23029"/>
+                        <property key="dbURL" value="jdbc:postgresql://193.144.59.201:5432/eiel_corunha_2010"/>
+                    </xml-tag>
+                </xml-tag>
+                <xml-tag>
+                    <property key="className" value="com.iver.cit.gvsig.fmap.layers.FLyrVect"/>
+                    <property key="active" value="false"/>
+                    <property key="name" value="Núcleos (polígono)"/>
+                    <property key="minScale" value="-1.0"/>
+                    <property key="maxScale" value="-1.0"/>
+                    <property key="visible" value="true"/>
+                    <property key="proj" value="EPSG:23029"/>
+                    <property key="transparency" value="0"/>
+                    <property key="isInTOC" value="true"/>
+                    <property key="numProperties" value="0"/>
+                    <property key="type" value="vectorial"/>
+                    <property key="db" value="PostGIS JDBC Driver"/>
+                    <property key="recordset-name" value="gdbms4d34234e_12cf551087a__7ffd"/>
+                    <property key="driverName" value="PostGIS JDBC Driver"/>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.rendering.SingleSymbolLegend"/>
+                        <property key="labelFieldName"/>
+                        <property key="labelHeightFieldName"/>
+                        <property key="labelRotationFieldName"/>
+                        <xml-tag>
+                            <property key="className" value="com.iver.cit.gvsig.fmap.core.v02.FSymbol"/>
+                            <property key="m_symbolType" value="4"/>
+                            <property key="m_Style" value="1"/>
+                            <property key="m_useOutline" value="true"/>
+                            <property key="m_Color" value="255,255,191,255"/>
+                            <property key="m_outlineColor" value="128,128,128,255"/>
+                            <property key="m_bUseFontSize" value="true"/>
+                            <property key="m_bDrawShape" value="true"/>
+                            <property key="m_Size" value="2"/>
+                            <property key="m_Rotation" value="0"/>
+                            <property key="m_LinePattern" value="0"/>
+                            <property key="m_isArrowStroke" value="0"/>
+                            <property key="m_stroke" value="1.0"/>
+                            <property key="m_bUseSize" value="false"/>
+                            <property key="m_AlingVert" value="0"/>
+                            <property key="m_AlingHoriz" value="0"/>
+                            <property key="m_Descrip"/>
+                            <property key="rgb" value="-65"/>
+                        </xml-tag>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.layers.SelectionSupport"/>
+                        <property key="numBitSet" value="0"/>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.drivers.jdbc.postgis.PostGisDriver"/>
+                        <property key="catalog" value="EIEL_MUNICIPAL"/>
+                        <property key="username" value="aeiris"/>
+                        <property key="driverclass" value="org.postgresql.Driver"/>
+                        <property key="tablename" value="nucl_encuestados"/>
+                        <property key="fields" value="geoid ,fase ,provincia ,municipio ,entidad ,nucleo ,tipo ,censo_dere ,padron ,pob_estaci ,altitud ,viv_total ,viv_p_ocup ,viv_s_ocup ,viv_desocu ,viv_otras ,otros_aloj ,esta_colec ,plazas_ec ,hoteles ,apartamentos ,casas_rural ,aag_caudal ,aag_restri ,aag_contad ,aag_tasa ,aag_tasa_valor ,aag_instal ,aag_hidran ,aag_est_hi ,aag_valvul ,aag_est_va ,aag_bocasr ,aag_est_bo ,aag_v_cone ,aag_v_ncon ,aag_c_invi ,aag_c_vera ,aag_v_expr ,aag_v_depr ,aag_perdid ,aag_calida ,aag_l_defi ,aag_v_defi ,aag_pr_def ,aag_pe_def ,aau_pob_re ,aau_pob_es ,aau_fecont ,aau_fencon ,aau_vivien ,aau_caudal ,aau_def_re ,aau_def_es ,aau_def_vi ,syd_pozos ,syd_sumide ,syd_calida ,syd_v_cone ,syd_v_ncon ,syd_l_defi ,syd_v_defi ,syd_pr_def ,syd_pe_def ,syd_c_desa ,syd_c_trat ,syd_reutili_urb ,syd_reutili_rus ,syd_reutili_ind ,aag_ventos ,aag_est_ve ,aag_est_fu ,aag_pbomb ,aag_est_pb ,tasa_saneamiento ,captacion_exterior ,deposito_exterior ,potabilizadora_exterior ,depuradora_exterior ,car_codigo ,car_pto_km ,car_ord_muni ,car_ord_tra ,car_dist_ini ,car_l_cons ,car_l_acon ,car_l_tota ,car_incom ,car_observ ,rba_v_sser ,rba_pr_sse ,rba_pe_sse ,rba_serlim ,rba_plalim ,tve1 ,tve2 ,tv_autonom ,tv_privada ,radio ,electricid ,gas ,alu_v_sin ,alu_l_sin ,accesib ,cisterna ,syd_ali_con ,syd_ali_sin ,tv_ant ,tv_ca ,tm_gsm ,tm_umts ,correo ,ba_rd ,ba_xd ,ba_wi ,ba_ca ,ba_rb ,ba_st ,capi ,tdt ,tasa_abastecimiento ,material_acometidas ,grandes_consumidores ,problemas_enorigen_decalidad ,problemas_enorigen_decalidad_txt ,problemas_enorigen_decantidad ,problemas_enorigen_decantidad_txt ,problemas_enorigen_otros ,problemas_enorigen_otros_txt ,problemas_enred_presion ,problemas_enred_presion_txt ,problemas_enred_seccion ,problemas_enred_seccion_txt ,problemas_enred_edad ,problemas_enred_edad_txt ,problemas_enred_otros ,problemas_enred_otros_txt ,problemas_sinabastecer_cota ,problemas_sinabastecer_cota_txt ,problemas_sinabastecer_seccion ,problemas_sinabastecer_seccion_txt ,problemas_sinabastecer_otros ,problemas_sinabastecer_otros_txt ,problemas_otros_etap ,problemas_otros_etap_txt ,problemas_otros_depositos ,problemas_otros_depositos_txt ,problemas_otros_bombeos ,problemas_otros_bombeos_txt ,viv_conectadas_exceso_presion ,syd_instal ,nivel_accesibilidad ,red_vecinal_abastecimiento ,padron2000 ,superficie ,numero_accesos ,numero_accesos_mayores5 ,longitud_red_distr ,longitud_red_sanea"/>
+                        <property key="FID" value="geoid"/>
+                        <property key="THE_GEOM" value="geometria_alta_escala"/>
+                        <property key="whereclause" value="WHERE MUNICIPIO='048'"/>
+                        <property key="SRID" value="23029"/>
+                        <property key="dbURL" value="jdbc:postgresql://193.144.59.201:5432/eiel_corunha_2010"/>
+                    </xml-tag>
+                </xml-tag>
+                <xml-tag>
+                    <property key="className" value="com.iver.cit.gvsig.fmap.layers.FLyrVect"/>
+                    <property key="active" value="false"/>
+                    <property key="name" value="Edificaciones privadas"/>
+                    <property key="minScale" value="-1.0"/>
+                    <property key="maxScale" value="-1.0"/>
+                    <property key="visible" value="true"/>
+                    <property key="proj" value="EPSG:23029"/>
+                    <property key="transparency" value="0"/>
+                    <property key="isInTOC" value="true"/>
+                    <property key="numProperties" value="0"/>
+                    <property key="type" value="vectorial"/>
+                    <property key="db" value="PostGIS JDBC Driver"/>
+                    <property key="recordset-name" value="gdbms4d34234e_12cf551087a__7ffc"/>
+                    <property key="driverName" value="PostGIS JDBC Driver"/>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.rendering.SingleSymbolLegend"/>
+                        <property key="labelFieldName"/>
+                        <property key="labelHeightFieldName"/>
+                        <property key="labelRotationFieldName"/>
+                        <xml-tag>
+                            <property key="className" value="com.iver.cit.gvsig.fmap.core.v02.FSymbol"/>
+                            <property key="m_symbolType" value="4"/>
+                            <property key="m_Style" value="1"/>
+                            <property key="m_useOutline" value="true"/>
+                            <property key="m_Color" value="142,169,213,255"/>
+                            <property key="m_outlineColor" value="0,0,0,255"/>
+                            <property key="m_bUseFontSize" value="true"/>
+                            <property key="m_bDrawShape" value="true"/>
+                            <property key="m_Size" value="2"/>
+                            <property key="m_Rotation" value="0"/>
+                            <property key="m_LinePattern" value="0"/>
+                            <property key="m_isArrowStroke" value="0"/>
+                            <property key="m_stroke" value="0.25"/>
+                            <property key="m_bUseSize" value="false"/>
+                            <property key="m_AlingVert" value="0"/>
+                            <property key="m_AlingHoriz" value="0"/>
+                            <property key="m_Descrip"/>
+                            <property key="rgb" value="-7427627"/>
+                        </xml-tag>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.layers.SelectionSupport"/>
+                        <property key="numBitSet" value="0"/>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.drivers.jdbc.postgis.PostGisDriver"/>
+                        <property key="catalog" value="EIEL_MUNICIPAL"/>
+                        <property key="username" value="aeiris"/>
+                        <property key="driverclass" value="org.postgresql.Driver"/>
+                        <property key="tablename" value="edificacion"/>
+                        <property key="fields" value="geoid ,fase ,provincia ,municipio ,lngidmanza ,lngidparce ,strvolumen ,altura ,industrial"/>
+                        <property key="FID" value="geoid"/>
+                        <property key="THE_GEOM" value="geometria"/>
+                        <property key="whereclause" value="WHERE MUNICIPIO='048'"/>
+                        <property key="SRID" value="23029"/>
+                        <property key="dbURL" value="jdbc:postgresql://193.144.59.201:5432/eiel_corunha_2010"/>
+                    </xml-tag>
+                </xml-tag>
+                <xml-tag>
+                    <property key="className" value="com.iver.cit.gvsig.fmap.layers.FLyrVect"/>
+                    <property key="active" value="false"/>
+                    <property key="name" value="Viario de Base"/>
+                    <property key="minScale" value="-1.0"/>
+                    <property key="maxScale" value="-1.0"/>
+                    <property key="visible" value="true"/>
+                    <property key="proj" value="EPSG:23029"/>
+                    <property key="transparency" value="0"/>
+                    <property key="isInTOC" value="true"/>
+                    <property key="numProperties" value="0"/>
+                    <property key="type" value="vectorial"/>
+                    <property key="db" value="PostGIS JDBC Driver"/>
+                    <property key="recordset-name" value="gdbms4d34234e_12cf551087a__7ffb"/>
+                    <property key="driverName" value="PostGIS JDBC Driver"/>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.rendering.SingleSymbolLegend"/>
+                        <property key="labelFieldName"/>
+                        <property key="labelHeightFieldName"/>
+                        <property key="labelRotationFieldName"/>
+                        <xml-tag>
+                            <property key="className" value="com.iver.cit.gvsig.fmap.core.v02.FSymbol"/>
+                            <property key="m_symbolType" value="2"/>
+                            <property key="m_Style" value="60"/>
+                            <property key="m_useOutline" value="true"/>
+                            <property key="m_Color" value="192,192,192,255"/>
+                            <property key="m_outlineColor" value="134,134,134,255"/>
+                            <property key="m_bUseFontSize" value="true"/>
+                            <property key="m_bDrawShape" value="true"/>
+                            <property key="m_Size" value="2"/>
+                            <property key="m_Rotation" value="0"/>
+                            <property key="m_LinePattern" value="0"/>
+                            <property key="m_isArrowStroke" value="0"/>
+                            <property key="m_stroke" value="0.0"/>
+                            <property key="m_bUseSize" value="false"/>
+                            <property key="m_AlingVert" value="0"/>
+                            <property key="m_AlingHoriz" value="0"/>
+                            <property key="m_Descrip"/>
+                            <property key="rgb" value="-4144960"/>
+                        </xml-tag>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.layers.SelectionSupport"/>
+                        <property key="numBitSet" value="0"/>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.drivers.jdbc.postgis.PostGisDriver"/>
+                        <property key="catalog" value="EIEL_CARTOGRAFIA_BASE"/>
+                        <property key="username" value="aeiris"/>
+                        <property key="driverclass" value="org.postgresql.Driver"/>
+                        <property key="tablename" value="viario"/>
+                        <property key="fields" value="geoid ,fase ,provincia ,municipio"/>
+                        <property key="FID" value="geoid"/>
+                        <property key="THE_GEOM" value="geometria"/>
+                        <property key="whereclause" value="WHERE MUNICIPIO='048'"/>
+                        <property key="SRID" value="23029"/>
+                        <property key="dbURL" value="jdbc:postgresql://193.144.59.201:5432/eiel_corunha_2010"/>
+                    </xml-tag>
+                </xml-tag>
+                <xml-tag>
+                    <property key="className" value="com.iver.cit.gvsig.fmap.layers.FLyrVect"/>
+                    <property key="active" value="false"/>
+                    <property key="name" value="Muros"/>
+                    <property key="minScale" value="-1.0"/>
+                    <property key="maxScale" value="-1.0"/>
+                    <property key="visible" value="false"/>
+                    <property key="proj" value="EPSG:23029"/>
+                    <property key="transparency" value="0"/>
+                    <property key="isInTOC" value="true"/>
+                    <property key="numProperties" value="0"/>
+                    <property key="type" value="vectorial"/>
+                    <property key="db" value="PostGIS JDBC Driver"/>
+                    <property key="recordset-name" value="gdbms4d34234e_12cf551087a__7ffa"/>
+                    <property key="driverName" value="PostGIS JDBC Driver"/>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.rendering.SingleSymbolLegend"/>
+                        <property key="labelFieldName"/>
+                        <property key="labelHeightFieldName"/>
+                        <property key="labelRotationFieldName"/>
+                        <xml-tag>
+                            <property key="className" value="com.iver.cit.gvsig.fmap.core.v02.FSymbol"/>
+                            <property key="m_symbolType" value="2"/>
+                            <property key="m_Style" value="60"/>
+                            <property key="m_useOutline" value="true"/>
+                            <property key="m_Color" value="139,139,139,255"/>
+                            <property key="m_outlineColor" value="97,97,97,255"/>
+                            <property key="m_bUseFontSize" value="true"/>
+                            <property key="m_bDrawShape" value="true"/>
+                            <property key="m_Size" value="2"/>
+                            <property key="m_Rotation" value="0"/>
+                            <property key="m_LinePattern" value="0"/>
+                            <property key="m_isArrowStroke" value="0"/>
+                            <property key="m_stroke" value="0.0"/>
+                            <property key="m_bUseSize" value="false"/>
+                            <property key="m_AlingVert" value="0"/>
+                            <property key="m_AlingHoriz" value="0"/>
+                            <property key="m_Descrip"/>
+                            <property key="rgb" value="-7631989"/>
+                        </xml-tag>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.layers.SelectionSupport"/>
+                        <property key="numBitSet" value="0"/>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.drivers.jdbc.postgis.PostGisDriver"/>
+                        <property key="catalog" value="EIEL_CARTOGRAFIA_BASE"/>
+                        <property key="username" value="aeiris"/>
+                        <property key="driverclass" value="org.postgresql.Driver"/>
+                        <property key="tablename" value="muro"/>
+                        <property key="fields" value="geoid ,fase ,provincia ,municipio"/>
+                        <property key="FID" value="geoid"/>
+                        <property key="THE_GEOM" value="geometria"/>
+                        <property key="whereclause" value="WHERE MUNICIPIO='048'"/>
+                        <property key="SRID" value="23029"/>
+                        <property key="dbURL" value="jdbc:postgresql://193.144.59.201:5432/eiel_corunha_2010"/>
+                    </xml-tag>
+                </xml-tag>
+                <xml-tag>
+                    <property key="className" value="com.iver.cit.gvsig.fmap.layers.FLyrVect"/>
+                    <property key="active" value="false"/>
+                    <property key="name" value="Hidrografia"/>
+                    <property key="minScale" value="-1.0"/>
+                    <property key="maxScale" value="-1.0"/>
+                    <property key="visible" value="false"/>
+                    <property key="proj" value="EPSG:23029"/>
+                    <property key="transparency" value="0"/>
+                    <property key="isInTOC" value="true"/>
+                    <property key="numProperties" value="0"/>
+                    <property key="type" value="vectorial"/>
+                    <property key="db" value="PostGIS JDBC Driver"/>
+                    <property key="recordset-name" value="gdbms4d34234e_12cf551087a__7ff9"/>
+                    <property key="driverName" value="PostGIS JDBC Driver"/>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.rendering.SingleSymbolLegend"/>
+                        <property key="labelFieldName"/>
+                        <property key="labelHeightFieldName"/>
+                        <property key="labelRotationFieldName"/>
+                        <xml-tag>
+                            <property key="className" value="com.iver.cit.gvsig.fmap.core.v02.FSymbol"/>
+                            <property key="m_symbolType" value="4"/>
+                            <property key="m_Style" value="1"/>
+                            <property key="m_useOutline" value="true"/>
+                            <property key="m_Color" value="0,0,0,0"/>
+                            <property key="m_outlineColor" value="255,0,0,255"/>
+                            <property key="m_bUseFontSize" value="true"/>
+                            <property key="m_bDrawShape" value="true"/>
+                            <property key="m_Size" value="2"/>
+                            <property key="m_Rotation" value="0"/>
+                            <property key="m_LinePattern" value="0"/>
+                            <property key="m_isArrowStroke" value="0"/>
+                            <property key="m_stroke" value="1.0"/>
+                            <property key="m_bUseSize" value="false"/>
+                            <property key="m_AlingVert" value="0"/>
+                            <property key="m_AlingHoriz" value="0"/>
+                            <property key="m_Descrip"/>
+                            <property key="rgb" value="-14057145"/>
+                        </xml-tag>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.layers.SelectionSupport"/>
+                        <property key="numBitSet" value="0"/>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.drivers.jdbc.postgis.PostGisDriver"/>
+                        <property key="catalog" value="EIEL_CARTOGRAFIA_BASE"/>
+                        <property key="username" value="aeiris"/>
+                        <property key="driverclass" value="org.postgresql.Driver"/>
+                        <property key="tablename" value="hidrografia"/>
+                        <property key="fields" value="geoid ,fase ,provincia ,municipio ,nombre"/>
+                        <property key="FID" value="geoid"/>
+                        <property key="THE_GEOM" value="geometria"/>
+                        <property key="whereclause" value="WHERE MUNICIPIO='048'"/>
+                        <property key="SRID" value="23029"/>
+                        <property key="dbURL" value="jdbc:postgresql://193.144.59.201:5432/eiel_corunha_2010"/>
+                    </xml-tag>
+                </xml-tag>
+                <xml-tag>
+                    <property key="className" value="com.iver.cit.gvsig.fmap.layers.FLyrVect"/>
+                    <property key="active" value="false"/>
+                    <property key="name" value="Tramos de carretera no inventariadas (polígono)"/>
+                    <property key="minScale" value="-1.0"/>
+                    <property key="maxScale" value="-1.0"/>
+                    <property key="visible" value="false"/>
+                    <property key="proj" value="EPSG:23029"/>
+                    <property key="transparency" value="0"/>
+                    <property key="isInTOC" value="true"/>
+                    <property key="numProperties" value="0"/>
+                    <property key="type" value="vectorial"/>
+                    <property key="db" value="PostGIS JDBC Driver"/>
+                    <property key="recordset-name" value="gdbms4d34234e_12cf551087a__7ff8"/>
+                    <property key="driverName" value="PostGIS JDBC Driver"/>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.rendering.SingleSymbolLegend"/>
+                        <property key="labelFieldName"/>
+                        <property key="labelHeightFieldName"/>
+                        <property key="labelRotationFieldName"/>
+                        <xml-tag>
+                            <property key="className" value="com.iver.cit.gvsig.fmap.core.v02.FSymbol"/>
+                            <property key="m_symbolType" value="4"/>
+                            <property key="m_Style" value="1"/>
+                            <property key="m_useOutline" value="true"/>
+                            <property key="m_Color" value="253,253,253,255"/>
+                            <property key="m_outlineColor" value="192,192,192,255"/>
+                            <property key="m_bUseFontSize" value="true"/>
+                            <property key="m_bDrawShape" value="true"/>
+                            <property key="m_Size" value="2"/>
+                            <property key="m_Rotation" value="0"/>
+                            <property key="m_LinePattern" value="0"/>
+                            <property key="m_isArrowStroke" value="0"/>
+                            <property key="m_stroke" value="0.25"/>
+                            <property key="m_bUseSize" value="false"/>
+                            <property key="m_AlingVert" value="0"/>
+                            <property key="m_AlingHoriz" value="0"/>
+                            <property key="m_Descrip"/>
+                            <property key="rgb" value="-131587"/>
+                        </xml-tag>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.layers.SelectionSupport"/>
+                        <property key="numBitSet" value="0"/>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.drivers.jdbc.postgis.PostGisDriver"/>
+                        <property key="catalog" value="EIEL_MUNICIPAL"/>
+                        <property key="username" value="aeiris"/>
+                        <property key="driverclass" value="org.postgresql.Driver"/>
+                        <property key="tablename" value="tramos_carretera_no_invent"/>
+                        <property key="fields" value="geoid ,fase ,provincia ,municipio ,firme"/>
+                        <property key="FID" value="geoid"/>
+                        <property key="THE_GEOM" value="geometria_alta_escala"/>
+                        <property key="whereclause" value="WHERE MUNICIPIO='048'"/>
+                        <property key="SRID" value="23029"/>
+                        <property key="dbURL" value="jdbc:postgresql://193.144.59.201:5432/eiel_corunha_2010"/>
+                    </xml-tag>
+                </xml-tag>
+                <xml-tag>
+                    <property key="className" value="com.iver.cit.gvsig.fmap.layers.FLyrVect"/>
+                    <property key="active" value="false"/>
+                    <property key="name" value="Calles"/>
+                    <property key="minScale" value="-1.0"/>
+                    <property key="maxScale" value="-1.0"/>
+                    <property key="visible" value="false"/>
+                    <property key="proj" value="EPSG:23029"/>
+                    <property key="transparency" value="0"/>
+                    <property key="isInTOC" value="true"/>
+                    <property key="numProperties" value="0"/>
+                    <property key="type" value="vectorial"/>
+                    <property key="db" value="PostGIS JDBC Driver"/>
+                    <property key="recordset-name" value="gdbms4d34234e_12cf551087a__7ff4"/>
+                    <property key="driverName" value="PostGIS JDBC Driver"/>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.rendering.SingleSymbolLegend"/>
+                        <property key="labelFieldName"/>
+                        <property key="labelHeightFieldName"/>
+                        <property key="labelRotationFieldName"/>
+                        <xml-tag>
+                            <property key="className" value="com.iver.cit.gvsig.fmap.core.v02.FSymbol"/>
+                            <property key="m_symbolType" value="4"/>
+                            <property key="m_Style" value="1"/>
+                            <property key="m_useOutline" value="true"/>
+                            <property key="m_Color" value="253,253,253,255"/>
+                            <property key="m_outlineColor" value="128,128,128,255"/>
+                            <property key="m_bUseFontSize" value="true"/>
+                            <property key="m_bDrawShape" value="true"/>
+                            <property key="m_Size" value="2"/>
+                            <property key="m_Rotation" value="0"/>
+                            <property key="m_LinePattern" value="0"/>
+                            <property key="m_isArrowStroke" value="0"/>
+                            <property key="m_stroke" value="0.5"/>
+                            <property key="m_bUseSize" value="false"/>
+                            <property key="m_AlingVert" value="0"/>
+                            <property key="m_AlingHoriz" value="0"/>
+                            <property key="m_Descrip"/>
+                            <property key="rgb" value="-131587"/>
+                        </xml-tag>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.layers.SelectionSupport"/>
+                        <property key="numBitSet" value="0"/>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.drivers.jdbc.postgis.PostGisDriver"/>
+                        <property key="catalog" value="EIEL_MUNICIPAL"/>
+                        <property key="username" value="aeiris"/>
+                        <property key="driverclass" value="org.postgresql.Driver"/>
+                        <property key="tablename" value="tramos_infraestr_viarias"/>
+                        <property key="fields" value="geoid ,fase ,provincia ,municipio ,entidad ,nucleo ,denominacion ,tramo ,tipo_pav ,estado ,aceras ,ancho ,longit_006 ,superf_006 ,viv_afecta ,peatonal ,numero_aceras ,escaleras ,carril_bici ,zonas_aparcamiento ,numero_zonas_aparcamiento ,vegetacion ,papeleras ,contenedores_rec_no_sel ,contenedores_res_org ,contenedores_plastico ,contenedores_vidrio ,contenedores_papel_carton ,contenedores_pilas ,contenedores_otros ,geoid_mediana ,contenedores"/>
+                        <property key="FID" value="geoid"/>
+                        <property key="THE_GEOM" value="geometria"/>
+                        <property key="whereclause" value="WHERE MUNICIPIO='048'"/>
+                        <property key="SRID" value="23029"/>
+                        <property key="dbURL" value="jdbc:postgresql://193.144.59.201:5432/eiel_corunha_2010"/>
+                    </xml-tag>
+                </xml-tag>
+                <xml-tag>
+                    <property key="className" value="com.iver.cit.gvsig.fmap.layers.FLyrVect"/>
+                    <property key="active" value="false"/>
+                    <property key="name" value="Tramos de carretera no inventariadas (línea)"/>
+                    <property key="minScale" value="-1.0"/>
+                    <property key="maxScale" value="-1.0"/>
+                    <property key="visible" value="true"/>
+                    <property key="proj" value="EPSG:23029"/>
+                    <property key="transparency" value="0"/>
+                    <property key="isInTOC" value="true"/>
+                    <property key="numProperties" value="0"/>
+                    <property key="type" value="vectorial"/>
+                    <property key="db" value="PostGIS JDBC Driver"/>
+                    <property key="recordset-name" value="gdbms4d34234e_12cf551087a__7ff7"/>
+                    <property key="driverName" value="PostGIS JDBC Driver"/>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.rendering.SingleSymbolLegend"/>
+                        <property key="labelFieldName"/>
+                        <property key="labelHeightFieldName"/>
+                        <property key="labelRotationFieldName"/>
+                        <xml-tag>
+                            <property key="className" value="com.iver.cit.gvsig.fmap.core.v02.FSymbol"/>
+                            <property key="m_symbolType" value="2"/>
+                            <property key="m_Style" value="60"/>
+                            <property key="m_useOutline" value="true"/>
+                            <property key="m_Color" value="192,192,192,255"/>
+                            <property key="m_outlineColor" value="134,134,134,255"/>
+                            <property key="m_bUseFontSize" value="true"/>
+                            <property key="m_bDrawShape" value="true"/>
+                            <property key="m_Size" value="2"/>
+                            <property key="m_Rotation" value="0"/>
+                            <property key="m_LinePattern" value="0"/>
+                            <property key="m_isArrowStroke" value="0"/>
+                            <property key="m_stroke" value="0.0"/>
+                            <property key="m_bUseSize" value="false"/>
+                            <property key="m_AlingVert" value="0"/>
+                            <property key="m_AlingHoriz" value="0"/>
+                            <property key="m_Descrip"/>
+                            <property key="rgb" value="-4144960"/>
+                        </xml-tag>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.layers.SelectionSupport"/>
+                        <property key="numBitSet" value="0"/>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.drivers.jdbc.postgis.PostGisDriver"/>
+                        <property key="catalog" value="EIEL_MUNICIPAL"/>
+                        <property key="username" value="aeiris"/>
+                        <property key="driverclass" value="org.postgresql.Driver"/>
+                        <property key="tablename" value="tramos_carretera_no_invent"/>
+                        <property key="fields" value="geoid ,fase ,provincia ,municipio ,firme"/>
+                        <property key="FID" value="geoid"/>
+                        <property key="THE_GEOM" value="geometria_baja_escala"/>
+                        <property key="whereclause" value="WHERE MUNICIPIO='048'"/>
+                        <property key="SRID" value="23029"/>
+                        <property key="dbURL" value="jdbc:postgresql://193.144.59.201:5432/eiel_corunha_2010"/>
+                    </xml-tag>
+                </xml-tag>
+                <xml-tag>
+                    <property key="className" value="com.iver.cit.gvsig.fmap.layers.FLyrVect"/>
+                    <property key="active" value="false"/>
+                    <property key="name" value="Tramos de carretera (polígono)"/>
+                    <property key="minScale" value="-1.0"/>
+                    <property key="maxScale" value="-1.0"/>
+                    <property key="visible" value="true"/>
+                    <property key="proj" value="EPSG:23029"/>
+                    <property key="transparency" value="0"/>
+                    <property key="isInTOC" value="true"/>
+                    <property key="numProperties" value="0"/>
+                    <property key="type" value="vectorial"/>
+                    <property key="db" value="PostGIS JDBC Driver"/>
+                    <property key="recordset-name" value="gdbms4d34234e_12cf551087a__7ff6"/>
+                    <property key="driverName" value="PostGIS JDBC Driver"/>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.rendering.SingleSymbolLegend"/>
+                        <property key="labelFieldName"/>
+                        <property key="labelHeightFieldName"/>
+                        <property key="labelRotationFieldName"/>
+                        <xml-tag>
+                            <property key="className" value="com.iver.cit.gvsig.fmap.core.v02.FSymbol"/>
+                            <property key="m_symbolType" value="4"/>
+                            <property key="m_Style" value="1"/>
+                            <property key="m_useOutline" value="true"/>
+                            <property key="m_Color" value="204,197,187,255"/>
+                            <property key="m_outlineColor" value="0,0,0,255"/>
+                            <property key="m_bUseFontSize" value="true"/>
+                            <property key="m_bDrawShape" value="true"/>
+                            <property key="m_Size" value="2"/>
+                            <property key="m_Rotation" value="0"/>
+                            <property key="m_LinePattern" value="0"/>
+                            <property key="m_isArrowStroke" value="0"/>
+                            <property key="m_stroke" value="0.25"/>
+                            <property key="m_bUseSize" value="false"/>
+                            <property key="m_AlingVert" value="0"/>
+                            <property key="m_AlingHoriz" value="0"/>
+                            <property key="m_Descrip"/>
+                            <property key="rgb" value="-3357253"/>
+                        </xml-tag>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.layers.SelectionSupport"/>
+                        <property key="numBitSet" value="0"/>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.drivers.jdbc.postgis.PostGisDriver"/>
+                        <property key="catalog" value="EIEL_MUNICIPAL"/>
+                        <property key="username" value="aeiris"/>
+                        <property key="driverclass" value="org.postgresql.Driver"/>
+                        <property key="tablename" value="tramos_carretera"/>
+                        <property key="fields" value="geoid ,fase ,provincia ,municipio ,cod_carrt ,ord_munici ,ord_tramo ,pk_inicial ,pk_final ,pk_aux ,senalizacion ,firme ,estado ,ancho ,longit_004 ,pasos_nive ,dimensiona ,muy_sinuoso ,pte_excesiva ,fre_estrech ,transp_public ,urbano ,tipo_tramo ,ancho_arcen ,funcionalidad ,imd ,velocidad_media ,num_accidentes ,num_fallecidos ,en_proyecto ,peaje ,doble_calzada ,aceras ,carril_bici ,ano_imd ,ano_accidentes"/>
+                        <property key="FID" value="geoid"/>
+                        <property key="THE_GEOM" value="geometria_alta_escala"/>
+                        <property key="whereclause" value="WHERE MUNICIPIO='048'"/>
+                        <property key="SRID" value="23029"/>
+                        <property key="dbURL" value="jdbc:postgresql://193.144.59.201:5432/eiel_corunha_2010"/>
+                    </xml-tag>
+                </xml-tag>
+                <xml-tag>
+                    <property key="className" value="com.iver.cit.gvsig.fmap.layers.FLyrVect"/>
+                    <property key="active" value="true"/>
+                    <property key="name" value="Tramos de carretera (línea)"/>
+                    <property key="minScale" value="-1.0"/>
+                    <property key="maxScale" value="-1.0"/>
+                    <property key="visible" value="true"/>
+                    <property key="proj" value="EPSG:23029"/>
+                    <property key="transparency" value="0"/>
+                    <property key="isInTOC" value="true"/>
+                    <property key="numProperties" value="0"/>
+                    <property key="type" value="vectorial"/>
+                    <property key="db" value="PostGIS JDBC Driver"/>
+                    <property key="recordset-name" value="gdbms4d34234e_12cf551087a__7ff5"/>
+                    <property key="driverName" value="PostGIS JDBC Driver"/>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.rendering.SingleSymbolLegend"/>
+                        <property key="labelFieldName"/>
+                        <property key="labelHeightFieldName"/>
+                        <property key="labelRotationFieldName"/>
+                        <xml-tag>
+                            <property key="className" value="com.iver.cit.gvsig.fmap.core.v02.FSymbol"/>
+                            <property key="m_symbolType" value="2"/>
+                            <property key="m_Style" value="60"/>
+                            <property key="m_useOutline" value="true"/>
+                            <property key="m_Color" value="128,128,128,255"/>
+                            <property key="m_outlineColor" value="89,89,89,255"/>
+                            <property key="m_bUseFontSize" value="true"/>
+                            <property key="m_bDrawShape" value="true"/>
+                            <property key="m_Size" value="2"/>
+                            <property key="m_Rotation" value="0"/>
+                            <property key="m_LinePattern" value="0"/>
+                            <property key="m_isArrowStroke" value="0"/>
+                            <property key="m_stroke" value="0.0"/>
+                            <property key="m_bUseSize" value="false"/>
+                            <property key="m_AlingVert" value="0"/>
+                            <property key="m_AlingHoriz" value="0"/>
+                            <property key="m_Descrip"/>
+                            <property key="rgb" value="-8355712"/>
+                        </xml-tag>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.layers.SelectionSupport"/>
+                        <property key="numBitSet" value="0"/>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.drivers.jdbc.postgis.PostGisDriver"/>
+                        <property key="catalog" value="EIEL_MUNICIPAL"/>
+                        <property key="username" value="aeiris"/>
+                        <property key="driverclass" value="org.postgresql.Driver"/>
+                        <property key="tablename" value="tramos_carretera"/>
+                        <property key="fields" value="geoid ,fase ,provincia ,municipio ,cod_carrt ,ord_munici ,ord_tramo ,pk_inicial ,pk_final ,pk_aux ,senalizacion ,firme ,estado ,ancho ,longit_004 ,pasos_nive ,dimensiona ,muy_sinuoso ,pte_excesiva ,fre_estrech ,transp_public ,urbano ,tipo_tramo ,ancho_arcen ,funcionalidad ,imd ,velocidad_media ,num_accidentes ,num_fallecidos ,en_proyecto ,peaje ,doble_calzada ,aceras ,carril_bici ,ano_imd ,ano_accidentes"/>
+                        <property key="FID" value="geoid"/>
+                        <property key="THE_GEOM" value="geometria_baja_escala"/>
+                        <property key="whereclause" value="WHERE MUNICIPIO='048'"/>
+                        <property key="SRID" value="23029"/>
+                        <property key="dbURL" value="jdbc:postgresql://193.144.59.201:5432/eiel_corunha_2010"/>
+                    </xml-tag>
+                </xml-tag>
+                <xml-tag>
+                    <property key="className" value="com.iver.cit.gvsig.fmap.layers.FLyrVect"/>
+                    <property key="active" value="false"/>
+                    <property key="name" value="Aceras"/>
+                    <property key="minScale" value="-1.0"/>
+                    <property key="maxScale" value="-1.0"/>
+                    <property key="visible" value="false"/>
+                    <property key="proj" value="EPSG:23029"/>
+                    <property key="transparency" value="0"/>
+                    <property key="isInTOC" value="true"/>
+                    <property key="numProperties" value="0"/>
+                    <property key="type" value="vectorial"/>
+                    <property key="db" value="PostGIS JDBC Driver"/>
+                    <property key="recordset-name" value="gdbms4d34234e_12cf551087a__7ff3"/>
+                    <property key="driverName" value="PostGIS JDBC Driver"/>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.rendering.SingleSymbolLegend"/>
+                        <property key="labelFieldName"/>
+                        <property key="labelHeightFieldName"/>
+                        <property key="labelRotationFieldName"/>
+                        <xml-tag>
+                            <property key="className" value="com.iver.cit.gvsig.fmap.core.v02.FSymbol"/>
+                            <property key="m_symbolType" value="4"/>
+                            <property key="m_Style" value="1"/>
+                            <property key="m_useOutline" value="true"/>
+                            <property key="m_Color" value="0,0,255,255"/>
+                            <property key="m_outlineColor" value="0,0,255,255"/>
+                            <property key="m_bUseFontSize" value="true"/>
+                            <property key="m_bDrawShape" value="true"/>
+                            <property key="m_Size" value="2"/>
+                            <property key="m_Rotation" value="0"/>
+                            <property key="m_LinePattern" value="0"/>
+                            <property key="m_isArrowStroke" value="0"/>
+                            <property key="m_stroke" value="0.25"/>
+                            <property key="m_bUseSize" value="false"/>
+                            <property key="m_AlingVert" value="0"/>
+                            <property key="m_AlingHoriz" value="0"/>
+                            <property key="m_Descrip"/>
+                            <property key="rgb" value="-16776961"/>
+                        </xml-tag>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.layers.SelectionSupport"/>
+                        <property key="numBitSet" value="0"/>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.drivers.jdbc.postgis.PostGisDriver"/>
+                        <property key="catalog" value="EIEL_MUNICIPAL"/>
+                        <property key="username" value="aeiris"/>
+                        <property key="driverclass" value="org.postgresql.Driver"/>
+                        <property key="tablename" value="aceras"/>
+                        <property key="fields" value="geoid ,fase ,provincia ,municipio ,entidad ,nucleo ,tipo_pav ,ancho ,observaciones ,estado ,geoid_mediana"/>
+                        <property key="FID" value="geoid"/>
+                        <property key="THE_GEOM" value="geometria_baja_escala"/>
+                        <property key="whereclause" value="WHERE MUNICIPIO='048'"/>
+                        <property key="SRID" value="23029"/>
+                        <property key="dbURL" value="jdbc:postgresql://193.144.59.201:5432/eiel_corunha_2010"/>
+                    </xml-tag>
+                </xml-tag>
+                <xml-tag>
+                    <property key="className" value="com.iver.cit.gvsig.fmap.layers.FLyrVect"/>
+                    <property key="active" value="false"/>
+                    <property key="name" value="Vallas,  alambradas y setos"/>
+                    <property key="minScale" value="-1.0"/>
+                    <property key="maxScale" value="-1.0"/>
+                    <property key="visible" value="false"/>
+                    <property key="proj" value="EPSG:23029"/>
+                    <property key="transparency" value="0"/>
+                    <property key="isInTOC" value="true"/>
+                    <property key="numProperties" value="0"/>
+                    <property key="type" value="vectorial"/>
+                    <property key="db" value="PostGIS JDBC Driver"/>
+                    <property key="recordset-name" value="gdbms4d34234e_12cf551087a__7ff2"/>
+                    <property key="driverName" value="PostGIS JDBC Driver"/>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.rendering.SingleSymbolLegend"/>
+                        <property key="labelFieldName"/>
+                        <property key="labelHeightFieldName"/>
+                        <property key="labelRotationFieldName"/>
+                        <xml-tag>
+                            <property key="className" value="com.iver.cit.gvsig.fmap.core.v02.FSymbol"/>
+                            <property key="m_symbolType" value="2"/>
+                            <property key="m_Style" value="60"/>
+                            <property key="m_useOutline" value="true"/>
+                            <property key="m_Color" value="139,139,139,255"/>
+                            <property key="m_outlineColor" value="97,97,97,255"/>
+                            <property key="m_bUseFontSize" value="true"/>
+                            <property key="m_bDrawShape" value="true"/>
+                            <property key="m_Size" value="2"/>
+                            <property key="m_Rotation" value="0"/>
+                            <property key="m_LinePattern" value="0"/>
+                            <property key="m_isArrowStroke" value="0"/>
+                            <property key="m_stroke" value="0.0"/>
+                            <property key="m_bUseSize" value="false"/>
+                            <property key="m_AlingVert" value="0"/>
+                            <property key="m_AlingHoriz" value="0"/>
+                            <property key="m_Descrip"/>
+                            <property key="rgb" value="-7631989"/>
+                        </xml-tag>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.layers.SelectionSupport"/>
+                        <property key="numBitSet" value="0"/>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.drivers.jdbc.postgis.PostGisDriver"/>
+                        <property key="catalog" value="EIEL_CARTOGRAFIA_BASE"/>
+                        <property key="username" value="aeiris"/>
+                        <property key="driverclass" value="org.postgresql.Driver"/>
+                        <property key="tablename" value="valla_alambrada_seto"/>
+                        <property key="fields" value="geoid ,fase ,provincia ,municipio"/>
+                        <property key="FID" value="geoid"/>
+                        <property key="THE_GEOM" value="geometria"/>
+                        <property key="whereclause" value="WHERE MUNICIPIO='048'"/>
+                        <property key="SRID" value="23029"/>
+                        <property key="dbURL" value="jdbc:postgresql://193.144.59.201:5432/eiel_corunha_2010"/>
+                    </xml-tag>
+                </xml-tag>
+                <xml-tag>
+                    <property key="className" value="com.iver.cit.gvsig.fmap.layers.FLyrVect"/>
+                    <property key="active" value="false"/>
+                    <property key="name" value="Textos de lugares"/>
+                    <property key="minScale" value="-1.0"/>
+                    <property key="maxScale" value="-1.0"/>
+                    <property key="visible" value="false"/>
+                    <property key="proj" value="EPSG:23029"/>
+                    <property key="transparency" value="0"/>
+                    <property key="isInTOC" value="true"/>
+                    <property key="numProperties" value="0"/>
+                    <property key="type" value="vectorial"/>
+                    <property key="db" value="PostGIS JDBC Driver"/>
+                    <property key="recordset-name" value="gdbms4d34234e_12cf551087a__7ff1"/>
+                    <property key="driverName" value="PostGIS JDBC Driver"/>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.rendering.SingleSymbolLegend"/>
+                        <property key="labelFieldName" value="texto_punto"/>
+                        <property key="labelHeightFieldName"/>
+                        <property key="labelRotationFieldName" value="rotacion_punto"/>
+                        <xml-tag>
+                            <property key="className" value="com.iver.cit.gvsig.fmap.core.v02.FSymbol"/>
+                            <property key="m_symbolType" value="7"/>
+                            <property key="m_Style" value="90"/>
+                            <property key="m_useOutline" value="true"/>
+                            <property key="m_Color" value="0,0,0,255"/>
+                            <property key="m_outlineColor" value="0,0,0,255"/>
+                            <property key="fontname" value="Arial"/>
+                            <property key="fontstyle" value="0"/>
+                            <property key="m_FontSize" value="10.0"/>
+                            <property key="m_FontColor" value="0,0,0,255"/>
+                            <property key="m_bUseFontSize" value="true"/>
+                            <property key="m_bDrawShape" value="false"/>
+                            <property key="m_Size" value="2"/>
+                            <property key="m_Rotation" value="0"/>
+                            <property key="m_LinePattern" value="0"/>
+                            <property key="m_isArrowStroke" value="0"/>
+                            <property key="m_stroke" value="1.0"/>
+                            <property key="m_bUseSize" value="false"/>
+                            <property key="m_AlingVert" value="0"/>
+                            <property key="m_AlingHoriz" value="0"/>
+                            <property key="m_Descrip"/>
+                            <property key="rgb" value="-14530247"/>
+                        </xml-tag>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.layers.SelectionSupport"/>
+                        <property key="numBitSet" value="0"/>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.drivers.jdbc.postgis.PostGisDriver"/>
+                        <property key="catalog" value="EIEL_MUNICIPAL"/>
+                        <property key="username" value="aeiris"/>
+                        <property key="driverclass" value="org.postgresql.Driver"/>
+                        <property key="tablename" value="texto_lugar"/>
+                        <property key="fields" value="geoid ,fase ,provincia ,municipio ,texto_punto ,rotacion_punto"/>
+                        <property key="FID" value="geoid"/>
+                        <property key="THE_GEOM" value="geometria"/>
+                        <property key="whereclause" value="WHERE MUNICIPIO='048'"/>
+                        <property key="SRID" value="23029"/>
+                        <property key="dbURL" value="jdbc:postgresql://193.144.59.201:5432/eiel_corunha_2010"/>
+                    </xml-tag>
+                </xml-tag>
+            </xml-tag>
+        </xml-tag>
+        <xml-tag>
+            <property key="className" value="com.iver.cit.gvsig.fmap.MapContext"/>
+            <xml-tag>
+                <property key="className" value="com.iver.cit.gvsig.fmap.ViewPort"/>
+                <property key="adjustedExtentX" value="563202.4801136364"/>
+                <property key="adjustedExtentY" value="4796352.5"/>
+                <property key="adjustedExtentW" value="7372.977272727272"/>
+                <property key="adjustedExtentH" value="9541.5"/>
+                <property key="dist1pixel" value="30.97889518737793"/>
+                <property key="dist3pixel" value="92.93668365478516"/>
+                <property key="distanceUnits" value="1"/>
+                <property key="extentX" value="563288.9375"/>
+                <property key="extentY" value="4796352.5"/>
+                <property key="extentW" value="7200.0625"/>
+                <property key="extentH" value="9541.5"/>
+                <property key="mapUnits" value="1"/>
+                <property key="offsetX" value="0.0"/>
+                <property key="offsetY" value="0.0"/>
+                <property key="proj" value="EPSG:23029"/>
+                <property key="scale" value="0.03228003982602316"/>
+                <xml-tag>
+                    <property key="className" value="com.iver.cit.gvsig.fmap.ExtentHistory"/>
+                    <property key="num" value="4"/>
+                    <property key="numrec" value="10"/>
+                    <property key="extent0X" value="563288.9375"/>
+                    <property key="extent0Y" value="4796352.5"/>
+                    <property key="extent0W" value="7200.0625"/>
+                    <property key="extent0H" value="9541.5"/>
+                    <property key="extent1X" value="563288.9375"/>
+                    <property key="extent1Y" value="4796352.5"/>
+                    <property key="extent1W" value="7200.0625"/>
+                    <property key="extent1H" value="9541.5"/>
+                    <property key="extent2X" value="563288.9375"/>
+                    <property key="extent2Y" value="4796352.5"/>
+                    <property key="extent2W" value="7200.0625"/>
+                    <property key="extent2H" value="9541.5"/>
+                    <property key="extent3X" value="563288.9375"/>
+                    <property key="extent3Y" value="4796352.5"/>
+                    <property key="extent3W" value="7200.0625"/>
+                    <property key="extent3H" value="9541.5"/>
+                </xml-tag>
+            </xml-tag>
+            <xml-tag>
+                <property key="className" value="com.iver.cit.gvsig.fmap.layers.FLayers"/>
+                <property key="active" value="false"/>
+                <property key="name"/>
+                <property key="minScale" value="-1.0"/>
+                <property key="maxScale" value="-1.0"/>
+                <property key="visible" value="true"/>
+                <property key="transparency" value="0"/>
+                <property key="isInTOC" value="true"/>
+                <property key="numProperties" value="0"/>
+                <property key="numLayers" value="2"/>
+                <property key="LayerNames" value="Municipio ,Núcleos (polígono)"/>
+                <xml-tag>
+                    <property key="className" value="com.iver.cit.gvsig.fmap.layers.FLyrVect"/>
+                    <property key="active" value="false"/>
+                    <property key="name" value="Municipio"/>
+                    <property key="minScale" value="-1.0"/>
+                    <property key="maxScale" value="-1.0"/>
+                    <property key="visible" value="true"/>
+                    <property key="proj" value="EPSG:23029"/>
+                    <property key="transparency" value="0"/>
+                    <property key="isInTOC" value="true"/>
+                    <property key="numProperties" value="0"/>
+                    <property key="type" value="vectorial"/>
+                    <property key="db" value="PostGIS JDBC Driver"/>
+                    <property key="recordset-name" value="gdbms4d34234e_12cf551087a__8000"/>
+                    <property key="driverName" value="PostGIS JDBC Driver"/>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.rendering.SingleSymbolLegend"/>
+                        <property key="labelFieldName"/>
+                        <property key="labelHeightFieldName"/>
+                        <property key="labelRotationFieldName"/>
+                        <xml-tag>
+                            <property key="className" value="com.iver.cit.gvsig.fmap.core.v02.FSymbol"/>
+                            <property key="m_symbolType" value="4"/>
+                            <property key="m_Style" value="1"/>
+                            <property key="m_useOutline" value="true"/>
+                            <property key="m_Color" value="249,249,249,255"/>
+                            <property key="m_outlineColor" value="128,128,128,255"/>
+                            <property key="m_bUseFontSize" value="true"/>
+                            <property key="m_bDrawShape" value="true"/>
+                            <property key="m_Size" value="2"/>
+                            <property key="m_Rotation" value="0"/>
+                            <property key="m_LinePattern" value="0"/>
+                            <property key="m_isArrowStroke" value="0"/>
+                            <property key="m_stroke" value="1.0"/>
+                            <property key="m_bUseSize" value="false"/>
+                            <property key="m_AlingVert" value="0"/>
+                            <property key="m_AlingHoriz" value="0"/>
+                            <property key="m_Descrip"/>
+                            <property key="rgb" value="-394759"/>
+                        </xml-tag>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.layers.SelectionSupport"/>
+                        <property key="numBitSet" value="0"/>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.drivers.jdbc.postgis.PostGisDriver"/>
+                        <property key="catalog" value="EIEL_MUNICIPAL"/>
+                        <property key="username" value="aeiris"/>
+                        <property key="driverclass" value="org.postgresql.Driver"/>
+                        <property key="tablename" value="mun_encuestados"/>
+                        <property key="fields" value="geoid ,fase ,provincia ,municipio ,censo_dere ,padron ,pob_estaci ,viv_total ,viv_p_ocup ,viv_s_ocup ,viv_desocu ,viv_otras ,otros_aloj ,esta_colec ,plazas_ec ,hoteles ,apartamentos ,casas_rural ,longi_011 ,aag_v_cone ,aag_v_ncon ,aag_c_invi ,aag_c_vera ,aag_v_expr ,aag_v_depr ,aag_l_defi ,aag_v_defi ,aag_pr_def ,aag_pe_def ,aau_vivien ,aau_pob_re ,aau_pob_es ,aau_def_vi ,aau_def_re ,aau_def_es ,aau_fecont ,aau_fencon ,ramal_014 ,syd_v_cone ,syd_v_ncon ,syd_l_defi ,syd_v_defi ,syd_pr_def ,syd_pe_def ,syd_c_desa ,syd_c_trat ,vivien_015 ,pob_re_015 ,pob_es_015 ,pob_vi_def ,pob_re_def ,pob_es_def ,produ_basu ,rba_v_sser ,rba_pr_sse ,rba_pe_sse ,rba_serlim ,puntos_luz ,alu_v_sin ,alu_l_sin ,syd_reutili_urb ,syd_reutili_rus ,syd_reutili_ind ,contenedores ,aag_gestion ,aag_titular ,syd_gestion ,syd_titular"/>
+                        <property key="FID" value="geoid"/>
+                        <property key="THE_GEOM" value="geometria"/>
+                        <property key="whereclause" value="WHERE MUNICIPIO='048'"/>
+                        <property key="SRID" value="23029"/>
+                        <property key="dbURL" value="jdbc:postgresql://193.144.59.201:5432/eiel_corunha_2010"/>
+                    </xml-tag>
+                </xml-tag>
+                <xml-tag>
+                    <property key="className" value="com.iver.cit.gvsig.fmap.layers.FLyrVect"/>
+                    <property key="active" value="false"/>
+                    <property key="name" value="Núcleos (polígono)"/>
+                    <property key="minScale" value="-1.0"/>
+                    <property key="maxScale" value="-1.0"/>
+                    <property key="visible" value="true"/>
+                    <property key="proj" value="EPSG:23029"/>
+                    <property key="transparency" value="0"/>
+                    <property key="isInTOC" value="true"/>
+                    <property key="numProperties" value="0"/>
+                    <property key="type" value="vectorial"/>
+                    <property key="db" value="PostGIS JDBC Driver"/>
+                    <property key="recordset-name" value="gdbms4d34234e_12cf551087a__7ffe"/>
+                    <property key="driverName" value="PostGIS JDBC Driver"/>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.rendering.SingleSymbolLegend"/>
+                        <property key="labelFieldName"/>
+                        <property key="labelHeightFieldName"/>
+                        <property key="labelRotationFieldName"/>
+                        <xml-tag>
+                            <property key="className" value="com.iver.cit.gvsig.fmap.core.v02.FSymbol"/>
+                            <property key="m_symbolType" value="4"/>
+                            <property key="m_Style" value="1"/>
+                            <property key="m_useOutline" value="true"/>
+                            <property key="m_Color" value="255,255,191,255"/>
+                            <property key="m_outlineColor" value="128,128,128,255"/>
+                            <property key="m_bUseFontSize" value="true"/>
+                            <property key="m_bDrawShape" value="true"/>
+                            <property key="m_Size" value="2"/>
+                            <property key="m_Rotation" value="0"/>
+                            <property key="m_LinePattern" value="0"/>
+                            <property key="m_isArrowStroke" value="0"/>
+                            <property key="m_stroke" value="1.0"/>
+                            <property key="m_bUseSize" value="false"/>
+                            <property key="m_AlingVert" value="0"/>
+                            <property key="m_AlingHoriz" value="0"/>
+                            <property key="m_Descrip"/>
+                            <property key="rgb" value="-65"/>
+                        </xml-tag>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.layers.SelectionSupport"/>
+                        <property key="numBitSet" value="0"/>
+                    </xml-tag>
+                    <xml-tag>
+                        <property key="className" value="com.iver.cit.gvsig.fmap.drivers.jdbc.postgis.PostGisDriver"/>
+                        <property key="catalog" value="EIEL_MUNICIPAL"/>
+                        <property key="username" value="aeiris"/>
+                        <property key="driverclass" value="org.postgresql.Driver"/>
+                        <property key="tablename" value="nucl_encuestados"/>
+                        <property key="fields" value="geoid ,fase ,provincia ,municipio ,entidad ,nucleo ,tipo ,censo_dere ,padron ,pob_estaci ,altitud ,viv_total ,viv_p_ocup ,viv_s_ocup ,viv_desocu ,viv_otras ,otros_aloj ,esta_colec ,plazas_ec ,hoteles ,apartamentos ,casas_rural ,aag_caudal ,aag_restri ,aag_contad ,aag_tasa ,aag_tasa_valor ,aag_instal ,aag_hidran ,aag_est_hi ,aag_valvul ,aag_est_va ,aag_bocasr ,aag_est_bo ,aag_v_cone ,aag_v_ncon ,aag_c_invi ,aag_c_vera ,aag_v_expr ,aag_v_depr ,aag_perdid ,aag_calida ,aag_l_defi ,aag_v_defi ,aag_pr_def ,aag_pe_def ,aau_pob_re ,aau_pob_es ,aau_fecont ,aau_fencon ,aau_vivien ,aau_caudal ,aau_def_re ,aau_def_es ,aau_def_vi ,syd_pozos ,syd_sumide ,syd_calida ,syd_v_cone ,syd_v_ncon ,syd_l_defi ,syd_v_defi ,syd_pr_def ,syd_pe_def ,syd_c_desa ,syd_c_trat ,syd_reutili_urb ,syd_reutili_rus ,syd_reutili_ind ,aag_ventos ,aag_est_ve ,aag_est_fu ,aag_pbomb ,aag_est_pb ,tasa_saneamiento ,captacion_exterior ,deposito_exterior ,potabilizadora_exterior ,depuradora_exterior ,car_codigo ,car_pto_km ,car_ord_muni ,car_ord_tra ,car_dist_ini ,car_l_cons ,car_l_acon ,car_l_tota ,car_incom ,car_observ ,rba_v_sser ,rba_pr_sse ,rba_pe_sse ,rba_serlim ,rba_plalim ,tve1 ,tve2 ,tv_autonom ,tv_privada ,radio ,electricid ,gas ,alu_v_sin ,alu_l_sin ,accesib ,cisterna ,syd_ali_con ,syd_ali_sin ,tv_ant ,tv_ca ,tm_gsm ,tm_umts ,correo ,ba_rd ,ba_xd ,ba_wi ,ba_ca ,ba_rb ,ba_st ,capi ,tdt ,tasa_abastecimiento ,material_acometidas ,grandes_consumidores ,problemas_enorigen_decalidad ,problemas_enorigen_decalidad_txt ,problemas_enorigen_decantidad ,problemas_enorigen_decantidad_txt ,problemas_enorigen_otros ,problemas_enorigen_otros_txt ,problemas_enred_presion ,problemas_enred_presion_txt ,problemas_enred_seccion ,problemas_enred_seccion_txt ,problemas_enred_edad ,problemas_enred_edad_txt ,problemas_enred_otros ,problemas_enred_otros_txt ,problemas_sinabastecer_cota ,problemas_sinabastecer_cota_txt ,problemas_sinabastecer_seccion ,problemas_sinabastecer_seccion_txt ,problemas_sinabastecer_otros ,problemas_sinabastecer_otros_txt ,problemas_otros_etap ,problemas_otros_etap_txt ,problemas_otros_depositos ,problemas_otros_depositos_txt ,problemas_otros_bombeos ,problemas_otros_bombeos_txt ,viv_conectadas_exceso_presion ,syd_instal ,nivel_accesibilidad ,red_vecinal_abastecimiento ,padron2000 ,superficie ,numero_accesos ,numero_accesos_mayores5 ,longitud_red_distr ,longitud_red_sanea"/>
+                        <property key="FID" value="geoid"/>
+                        <property key="THE_GEOM" value="geometria_alta_escala"/>
+                        <property key="whereclause" value="WHERE MUNICIPIO='048'"/>
+                        <property key="SRID" value="23029"/>
+                        <property key="dbURL" value="jdbc:postgresql://193.144.59.201:5432/eiel_corunha_2010"/>
+                    </xml-tag>
+                </xml-tag>
+            </xml-tag>
+        </xml-tag>
+    </xml-tag>
+    <xml-tag>
+        <property key="name" value="AndamiPersistence"/>
+        <property key="className" value="com.iver.cit.gvsig.project.Project"/>
+        <xml-tag>
+            <property key="name" value="ViewInfoProperties"/>
+            <property key="X" value="0"/>
+            <property key="Y" value="0"/>
+            <property key="Width" value="430"/>
+            <property key="Height" value="584"/>
+            <property key="isVisible" value="true"/>
+            <property key="isResizable" value="false"/>
+            <property key="isMaximizable" value="true"/>
+            <property key="isModal" value="false"/>
+            <property key="isModeless" value="false"/>
+            <property key="isClosed" value="false"/>
+            <property key="className" value="com.iver.cit.gvsig.project.document.gui.ProjectWindow"/>
+            <property key="zPosition" value="1"/>
+        </xml-tag>
+        <xml-tag>
+            <property key="name" value="ViewInfoProperties"/>
+            <property key="X" value="0"/>
+            <property key="Y" value="0"/>
+            <property key="Width" value="1360"/>
+            <property key="Height" value="678"/>
+            <property key="isVisible" value="true"/>
+            <property key="isResizable" value="true"/>
+            <property key="isMaximizable" value="true"/>
+            <property key="isModal" value="false"/>
+            <property key="isModeless" value="false"/>
+            <property key="isClosed" value="false"/>
+            <property key="isMaximized" value="true"/>
+            <property key="normalX" value="0"/>
+            <property key="normalY" value="0"/>
+            <property key="normalWidth" value="500"/>
+            <property key="normalHeight" value="340"/>
+            <property key="documentType" value="ProjectView"/>
+            <property key="documentName" value="Sin título - 0"/>
+            <property key="zPosition" value="0"/>
+            <xml-tag>
+                <property key="name" value="windowData"/>
+                <property key="GraphicLocator.isPalette" value="false"/>
+                <property key="GraphicLocator.Height" value="308"/>
+                <property key="MainDivider.Y" value="0"/>
+                <property key="MainDivider.X" value="0"/>
+                <property key="MapControl.Height" value="645"/>
+                <property key="TOCDivider.Location" value="331"/>
+                <property key="TOC.Height" value="330"/>
+                <property key="TOCDivider.Y" value="1"/>
+                <property key="TOCDivider.X" value="1"/>
+                <property key="MainDivider.Location" value="241"/>
+                <property key="MainDivider.Width" value="1350"/>
+                <property key="MainWindow.X" value="0"/>
+                <property key="TOCDivider.Height" value="645"/>
+                <property key="TOC.Width" value="238"/>
+                <property key="MainWindow.Width" value="1350"/>
+                <property key="TOCDivider.Width" value="240"/>
+                <property key="MainWindow.Y" value="0"/>
+                <property key="MapControl.Width" value="1103"/>
+                <property key="GraphicLocator.Width" value="238"/>
+                <property key="MainWindow.Height" value="647"/>
+                <property key="MainDivider.Height" value="647"/>
+            </xml-tag>
+        </xml-tag>
+    </xml-tag>
+</xml-tag>

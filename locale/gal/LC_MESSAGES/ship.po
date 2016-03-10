@@ -1,0 +1,261 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2015-03-15 03:43+CET\n"
+"PO-Revision-Date: 2016-02-22 23:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: ../gui.py:99
+#: ../gui.py:106
+msgid "Default home directory not properly set, "
+msgstr "Cartafol inicial por defecto non se estableceu axeitadamente,"
+
+#: ../gui.py:100
+#: ../gui.py:107
+msgid "setting user directory as default."
+msgstr "establecendo o directorio de usuario como preestablecido."
+
+#: ../gui.py:101
+msgid "Unable to populate table"
+msgstr "Non foi posible encher a tabela"
+
+#: ../gui.py:109
+msgid "Ship Default home directory not properly set, "
+msgstr "O cartafol inicial por defecto de Ship non se estableceu axeitadamente,"
+
+#: ../gui.py:110
+msgid "You can modify it in in menu:\n"
+msgstr "Pode modificalo no menú:\n"
+
+#: ../gui.py:111
+msgid "Edit -> Preferences."
+msgstr "Editar -> Preferencias."
+
+#: ../gui.py:112
+msgid "Ship Default home directory warning"
+msgstr "Aviso de cartafol inicial por defecto de Ship"
+
+#: ../gui.py:371
+msgid "Open directory..."
+msgstr "Abrir cartafol..."
+
+#: ../gui.py:374
+msgid "Set session home directory..."
+msgstr "Establecer cartafol inicial de sesión..."
+
+#: ../gui.py:377
+msgid "Exit"
+msgstr "Sair"
+
+#: ../gui.py:383
+msgid "New Folder"
+msgstr "Novo Cartafol"
+
+#: ../gui.py:385
+msgid "Cut"
+msgstr "Cortar"
+
+#: ../gui.py:387
+msgid "Copy"
+msgstr "Copiar"
+
+#: ../gui.py:389
+msgid "Paste"
+msgstr "Pegar"
+
+#: ../gui.py:391
+msgid "Select All"
+msgstr "Seleccionar Todos"
+
+#: ../gui.py:393
+msgid "Invert Selection"
+msgstr "Invertir Selección"
+
+#: ../gui.py:395
+msgid "Preferences..."
+msgstr "Preferencias..."
+
+#: ../gui.py:402
+#: ../gui.py:470
+msgid "Bookmarks"
+msgstr "Marcadores"
+
+#: ../gui.py:404
+#: ../gui.py:675
+msgid "Tools"
+msgstr "Ferramentas"
+
+#: ../gui.py:406
+msgid "Focus Tree"
+msgstr "Ver Árbore"
+
+#: ../gui.py:408
+msgid "Focus Content/Table tab"
+msgstr "Ver pestana Contido/Tabela"
+
+#: ../gui.py:410
+msgid "Focus Content tab"
+msgstr "Ver pestana Contido"
+
+#: ../gui.py:412
+msgid "Focus Table tab"
+msgstr "Ver pestana Tabela"
+
+#: ../gui.py:414
+msgid "Focus Info tab"
+msgstr "Ver pestana Info"
+
+#: ../gui.py:416
+msgid "Focus Preview tab"
+msgstr "Ver pestana de Previsualización"
+
+#: ../gui.py:419
+msgid "Toggle Shape Mode"
+msgstr "Alternar Modo Shape"
+
+#: ../gui.py:421
+msgid "Toggle Toolbar Panel"
+msgstr "Alternar Panel de Barra de Ferramentas"
+
+#: ../gui.py:423
+msgid "Toggle Trees Panel"
+msgstr "Alternar Panel de Árbores"
+
+#: ../gui.py:432
+#: ../gui.py:544
+msgid "Back"
+msgstr "Atrás"
+
+#: ../gui.py:434
+#: ../gui.py:545
+msgid "Forward"
+msgstr "Adiante"
+
+#: ../gui.py:436
+#: ../gui.py:543
+msgid "Parent"
+msgstr "Superior"
+
+#: ../gui.py:438
+msgid "Default Home Folder"
+msgstr "Cartafol Inicial por Defecto"
+
+#: ../gui.py:445
+msgid "Add bookmark"
+msgstr "Engadir marcador"
+
+#: ../gui.py:447
+msgid "Edit bookmarks..."
+msgstr "Editar marcadores..."
+
+#: ../gui.py:454
+#: ../gui.py:471
+msgid "Help"
+msgstr "Axuda"
+
+#: ../gui.py:456
+msgid "Website"
+msgstr "Páxina web"
+
+#: ../gui.py:459
+msgid "About"
+msgstr "Acerca de"
+
+#: ../gui.py:466
+msgid "File"
+msgstr "Arquivo"
+
+#: ../gui.py:467
+msgid "Edit"
+msgstr "Editar"
+
+#: ../gui.py:468
+msgid "View"
+msgstr "Ver"
+
+#: ../gui.py:469
+msgid "Go"
+msgstr "Ir"
+
+#: ../gui.py:546
+msgid "Home"
+msgstr "Inicio"
+
+#: ../gui.py:547
+msgid "Open"
+msgstr "Abrir"
+
+#: ../gui.py:548
+msgid "Trees Panel"
+msgstr "Panel de Árbores"
+
+#: ../gui.py:550
+msgid "Shape Mode"
+msgstr "Modo Shape"
+
+#: ../gui.py:600
+msgid "Toggle Menu: F7, Menu navigation: F10"
+msgstr "Alternar Menú: F7, Navegar Menú: F10"
+
+#: ../gui.py:618
+msgid "Status"
+msgstr "Estado"
+
+#: ../gui.py:619
+msgid "Terminal"
+msgstr "Terminal"
+
+#: ../gui.py:674
+msgid "Tree"
+msgstr "Árbore"
+
+#: ../gui.py:736
+msgid "Content"
+msgstr "Contido"
+
+#: ../gui.py:738
+msgid "Table"
+msgstr "Tabela"
+
+#: ../gui.py:740
+msgid "Info"
+msgstr "Info"
+
+#: ../gui.py:742
+msgid "Preview"
+msgstr "Previsualización"
+
+#: ../gui.py:759
+msgid "Name"
+msgstr "Nome"
+
+#: ../gui.py:760
+msgid "Size"
+msgstr "Tamaño"
+
+#: ../gui.py:762
+msgid "Modified"
+msgstr "Modificado"
+
+#: ../gui.py:868
+msgid "Fields schema:"
+msgstr "Esquema de campos:"
+
+#: ../gui.py:877
+msgid "FIELD"
+msgstr "CAMPO"
+
+#: ../gui.py:879
+msgid "TYPE"
+msgstr "TIPO"
+

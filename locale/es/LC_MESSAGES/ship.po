@@ -1,0 +1,452 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2015-03-15 03:43+CET\n"
+"PO-Revision-Date: 2016-02-22 23:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: ../gui.py:99
+#: ../gui.py:106
+msgid "Default home directory not properly set, "
+msgstr "Directorio inicial por defecto no definido correctamente, "
+
+#: ../gui.py:100
+#: ../gui.py:107
+msgid "setting user directory as default."
+msgstr "definiendo directorio de usuario como predeterminado."
+
+#: ../gui.py:101
+msgid "Unable to populate table"
+msgstr "No ha sido posible rellenar tabla"
+
+#: ../gui.py:109
+msgid "Ship Default home directory not properly set, "
+msgstr "Directorio inicial por defecto de Ship no definido correctamente, "
+
+#: ../gui.py:110
+msgid "You can modify it in in menu:\n"
+msgstr "Puede modificarlo en el menu:\n"
+
+#: ../gui.py:111
+msgid "Edit -> Preferences."
+msgstr "Editar -> Preferencias."
+
+#: ../gui.py:112
+msgid "Ship Default home directory warning"
+msgstr "Advertencia de directorio inicial predeterminado de Ship"
+
+#: ../gui.py:371
+msgid "Open directory..."
+msgstr "Abrir directorio..."
+
+#: ../gui.py:374
+msgid "Set session home directory..."
+msgstr "Definir directorio inicial de la sesión"
+
+#: ../gui.py:377
+msgid "Exit"
+msgstr "Salir"
+
+#: ../gui.py:383
+msgid "New Folder"
+msgstr "Nueva carpeta"
+
+#: ../gui.py:385
+msgid "Cut"
+msgstr "Cortar"
+
+#: ../gui.py:387
+msgid "Copy"
+msgstr "Copiar"
+
+#: ../gui.py:389
+msgid "Paste"
+msgstr "Pegar"
+
+#: ../gui.py:391
+msgid "Select All"
+msgstr "Seleccionar Todo"
+
+#: ../gui.py:393
+msgid "Invert Selection"
+msgstr "Invertir Selección"
+
+#: ../gui.py:395
+msgid "Preferences..."
+msgstr "Preferencias..."
+
+#: ../gui.py:402
+#: ../gui.py:470
+msgid "Bookmarks"
+msgstr "Favoritos"
+
+#: ../gui.py:404
+#: ../gui.py:675
+msgid "Tools"
+msgstr "Herramientas"
+
+#: ../gui.py:406
+msgid "Focus Tree"
+msgstr "Centrar en Árbol"
+
+#: ../gui.py:408
+msgid "Focus Content/Table tab"
+msgstr "Centrar en pestaña Contenido/Tabla"
+
+#: ../gui.py:410
+msgid "Focus Content tab"
+msgstr "Centrar en pestaña Contenido"
+
+#: ../gui.py:412
+msgid "Focus Table tab"
+msgstr "Centrar en pestaña Tabla"
+
+#: ../gui.py:414
+msgid "Focus Info tab"
+msgstr "Centrar en pestaña Info"
+
+#: ../gui.py:416
+msgid "Focus Preview tab"
+msgstr "Centrar en pestaña Previsualización"
+
+#: ../gui.py:419
+msgid "Toggle Shape Mode"
+msgstr "Alternar Modo Shape"
+
+#: ../gui.py:421
+msgid "Toggle Toolbar Panel"
+msgstr "Alternar Panel de Herramientas"
+
+#: ../gui.py:423
+msgid "Toggle Trees Panel"
+msgstr "Alternar Panel de Árbol de directorios"
+
+#: ../gui.py:432
+#: ../gui.py:544
+msgid "Back"
+msgstr "Atrás"
+
+#: ../gui.py:434
+#: ../gui.py:545
+msgid "Forward"
+msgstr "Adelante"
+
+#: ../gui.py:436
+#: ../gui.py:543
+msgid "Parent"
+msgstr "Superior"
+
+#: ../gui.py:438
+msgid "Default Home Folder"
+msgstr "Carpeta de Inicio"
+
+#: ../gui.py:445
+msgid "Add bookmark"
+msgstr "Añadir favorito"
+
+#: ../gui.py:447
+msgid "Edit bookmarks..."
+msgstr "Editar favoritos..."
+
+#: ../gui.py:454
+#: ../gui.py:471
+msgid "Help"
+msgstr "Ayuda"
+
+#: ../gui.py:456
+msgid "Website"
+msgstr "Página web"
+
+#: ../gui.py:459
+msgid "About"
+msgstr "Acerca de"
+
+#: ../gui.py:466
+msgid "File"
+msgstr "Archivo"
+
+#: ../gui.py:467
+msgid "Edit"
+msgstr "Editar"
+
+#: ../gui.py:468
+msgid "View"
+msgstr "Ver"
+
+#: ../gui.py:469
+msgid "Go"
+msgstr "Ir"
+
+#: ../gui.py:546
+msgid "Home"
+msgstr "Inicio"
+
+#: ../gui.py:547
+msgid "Open"
+msgstr "Abrir"
+
+#: ../gui.py:548
+msgid "Trees Panel"
+msgstr "Panel de Árboles"
+
+#: ../gui.py:550
+msgid "Shape Mode"
+msgstr "Modo Shape"
+
+#: ../gui.py:600
+msgid "Toggle Menu: F7, Menu navigation: F10"
+msgstr "Alternar Menú: F7, navegación por Menú: F10"
+
+#: ../gui.py:618
+msgid "Status"
+msgstr "Estado"
+
+#: ../gui.py:619
+msgid "Terminal"
+msgstr "Terminal"
+
+#: ../gui.py:674
+msgid "Tree"
+msgstr "Árbol"
+
+#: ../gui.py:736
+msgid "Content"
+msgstr "Contenido"
+
+#: ../gui.py:738
+msgid "Table"
+msgstr "Tabla"
+
+#: ../gui.py:740
+msgid "Info"
+msgstr "Info"
+
+#: ../gui.py:742
+msgid "Preview"
+msgstr "Previsualización"
+
+#: ../gui.py:759
+msgid "Name"
+msgstr "Nombre"
+
+#: ../gui.py:760
+msgid "Size"
+msgstr "Tamaño"
+
+#: ../gui.py:762
+msgid "Modified"
+msgstr "Modificado"
+
+#: ../gui.py:868
+msgid "Fields schema:"
+msgstr "Esquema de campos:"
+
+#: ../gui.py:877
+msgid "FIELD"
+msgstr "CAMPO"
+
+#: ../gui.py:879
+msgid "TYPE"
+msgstr "TIPO"
+
+#~ msgid "selected"
+#~ msgstr "seleccionados"
+
+#~ msgid "items"
+#~ msgstr "elementos"
+
+#~ msgid "Directory opened:"
+#~ msgstr "Directorio abierto:"
+
+#~ msgid "Changed directory to:"
+#~ msgstr "Cambiar directorio a:"
+
+#~ msgid "Preferences"
+#~ msgstr "Preferencias"
+
+#~ msgid "General"
+#~ msgstr "General"
+
+#~ msgid "Default home directory:"
+#~ msgstr "Directorio de inicio predeterminado:"
+
+#~ msgid "History records limit (x back, x forward):"
+#~ msgstr "Límite de elementos de historial (x atrás, x adelante):"
+
+#~ msgid "Double extensions:"
+#~ msgstr "Dobles extensiones:"
+
+#~ msgid "Shapefiles"
+#~ msgstr "Shapefiles"
+
+#~ msgid "Shapefile extensions:"
+#~ msgstr "Extensiones de Shapefiles:"
+
+#~ msgid "Default shape encoding:"
+#~ msgstr "Codificación de shapes por defecto:"
+
+#~ msgid "Shape mode by default"
+#~ msgstr "Modo Shape por defecto"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancelar"
+
+#~ msgid "Apply"
+#~ msgstr "Aplicar"
+
+#~ msgid "Close"
+#~ msgstr "Cerrar"
+
+#~ msgid "Exiting Ship session"
+#~ msgstr "Saliendo de la sesión Ship"
+
+#~ msgid "Preview drawing stopped"
+#~ msgstr "Representación de la previsualización cancelada"
+
+#~ msgid "Preview drawing canceled"
+#~ msgstr "Representación de la previsualización cancelada"
+
+#~ msgid "Unable to populate table."
+#~ msgstr "No ha sido posible rellenar tabla."
+
+#~ msgid "Stop"
+#~ msgstr "Parar"
+
+#~ msgid "Generating preview..."
+#~ msgstr "Generando previsualización..."
+
+#~ msgid "Not able to preview this geometry type"
+#~ msgstr "No ha sido posible previsualizar este tipo de geometría"
+
+#~ msgid "shapes shown"
+#~ msgstr "shapes mostrados"
+
+#~ msgid "Drawing geometries time:"
+#~ msgstr "Tiempo de representación de geometrías:"
+
+#~ msgid "fields"
+#~ msgstr "campos"
+
+#~ msgid "features"
+#~ msgstr "entidades"
+
+#~ msgid "Shapefile zipped"
+#~ msgstr "Shapefile comprimido (.zip)"
+
+#~ msgid "Sqlite database"
+#~ msgstr "Base de Datos Sqlite"
+
+#~ msgid "Sqlite database zipped"
+#~ msgstr "Base de Datos Sqlite comprimida (.zip)"
+
+#~ msgid "Ship Shapeezy container format (.shz)"
+#~ msgstr "Formato contenedor Ship Shapeezy (.shz)"
+
+#~ msgid "Type:"
+#~ msgstr "Tipo:"
+
+#~ msgid "Shapefile zipped file"
+#~ msgstr "Archivo Shapefile comprimido (.zip)"
+
+#~ msgid "Shapeezy file"
+#~ msgstr "Archivo Shapeezy"
+
+#~ msgid "srs info not avaliable "
+#~ msgstr "info de srs no disponible"
+
+#~ msgid "Drawing preview"
+#~ msgstr "Representando previsualización"
+
+#~ msgid "Preview stopped"
+#~ msgstr "Previsualización detenida"
+
+#~ msgid "Session Home"
+#~ msgstr "Inicio de la sesión"
+
+#~ msgid "User bookmarks"
+#~ msgstr "Favoritos de usuario"
+
+#~ msgid "The name already exists."
+#~ msgstr "El nombre ya existe."
+
+#~ msgid "Please choose an alternative name"
+#~ msgstr "Por favor, elija un nombre alternativo"
+
+#~ msgid "Name conflict"
+#~ msgstr "Conflicto de nombre"
+
+#~ msgid "New folder"
+#~ msgstr "Nueva carpeta"
+
+#~ msgid "Apply this action to all elements"
+#~ msgstr "Aplica esta acción a todos los elementos"
+
+#~ msgid "Yes"
+#~ msgstr "Sí"
+
+#~ msgid "No"
+#~ msgstr "No"
+
+#~ msgid "A folder with the same name already exists."
+#~ msgstr "Ya existe una carpeta con el mismo nombre."
+
+#~ msgid "Do you want to merge this folders?"
+#~ msgstr "¿Quiere mergear las carpetas?"
+
+#~ msgid "Merge folders"
+#~ msgstr "Mergear carpetas"
+
+#~ msgid "A file with the same name already exists."
+#~ msgstr "Ya existe un archivo con el mismo nombre."
+
+#~ msgid "Do you want to overwrite this file?"
+#~ msgstr "¿Quiere sobreescribir este archivo?"
+
+#~ msgid "Overwrite files"
+#~ msgstr "Sobreescribe archivos"
+
+#~ msgid "Copied"
+#~ msgstr "Copiado"
+
+#~ msgid "Name already exists."
+#~ msgstr "El nombre ya existe."
+
+#~ msgid "File not overwritten (not copied)"
+#~ msgstr "Archivo no sobreescrito (no copiado)"
+
+#~ msgid "Cut from"
+#~ msgstr "Cortar desde"
+
+#~ msgid "to"
+#~ msgstr "hasta"
+
+#~ msgid "New name:"
+#~ msgstr "Nuevo nombre:"
+
+#~ msgid "Rename"
+#~ msgstr "Renombrar"
+
+#~ msgid "Folder name:"
+#~ msgstr "Nombre de carpeta:"
+
+#~ msgid "File exists."
+#~ msgstr "Archivo existente."
+
+#~ msgid "This will delete the selection."
+#~ msgstr "Esto borrará la selección."
+
+#~ msgid "Are you sure to proceed?"
+#~ msgstr "¿Está seguro que quiere proceder?"
+
+#~ msgid "Delete"
+#~ msgstr "Borrar"
