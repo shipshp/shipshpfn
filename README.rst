@@ -29,10 +29,10 @@ Linux users should have Python already installed but may have to install 'python
 Extract Ship to some place in your system and run the shipshpfn/gui.py file,
 
 from the Ship folder:
-python gui.py
+python shipshpfn/gui.py
 
 or another path:
-python [path_to_Ship]/gui.py
+python [path_to_Ship]/shipshpfn/gui.py
 
 Contributing
 ============

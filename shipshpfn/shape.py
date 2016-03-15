@@ -6,7 +6,7 @@ shape.py
 Shapefile Managing using pyshp
 '''
 
-import pyshp
+import lib.pyshp as pyshp
 
 
 class ShapeReader():

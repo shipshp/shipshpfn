@@ -66,11 +66,12 @@ import styles
 
 import gettext
 
+
 if __file__ == os.path.basename(__file__):
     SHIP_PATH = "."
 else:
     SHIP_PATH = os.path.dirname(__file__)
-
+ 
 
 class App(tk.Tk):
     ''''''
@@ -184,6 +185,13 @@ class App(tk.Tk):
         default_bookmarks = dict(config.items("bookmarks"))
         for key in default_bookmarks.keys():
             default_bookmarks[key] = default_bookmarks[key].split(';')
+        
+        # Adding sample data bookmark
+        if default_bookmarks.has_key('ship_sample_data'):
+			test_data_path = '%s/../data-samples' % os.path.abspath(SHIP_PATH)
+			test_data_path = os.path.normpath(test_data_path)
+			default_bookmarks['ship_sample_data'] = ['Sample data',
+													 test_data_path]
         
         self.default_bookmarks = default_bookmarks
 
