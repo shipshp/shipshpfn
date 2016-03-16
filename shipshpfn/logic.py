@@ -1257,24 +1257,7 @@ class PreviewPlot(threading.Thread):
                 if self._stop.isSet():
                     raise ThreadCancelException("Preview canceled")
                 
-                geofile_zip = os.path.basename(geofile)
-                geofile_shp = os.path.splitext(geofile_zip)[0]
-                geofile_dbf = "%s.%s" % (os.path.splitext(geofile_shp)[0],
-                                         "dbf")
-                geofile_shx = "%s.%s" % (os.path.splitext(geofile_shp)[0],
-                                         "shx")
-
-                tmpdir = temp_mkdtemp()
-                
-                with zipfile(geofile, 'r') as shpzip:
-                    shpzip.extract(geofile_shp, tmpdir)
-                    shpzip.extract(geofile_dbf, tmpdir)
-                    shpzip.extract(geofile_shx, tmpdir)
-                    
-                geofile = "%s/%s" % (tmpdir, geofile_shp)
-                geofile_data = shape.ShapeReader(geofile)
-                    
-                shutil.rmtree(tmpdir)
+                geofile_data = self.parent.fileops.read_geozip_file(geofile)
                 
             elif geotype == 'sqliteshp':
                 geofile_data = shapedb.ShapedbReader(geofile)
@@ -1686,24 +1669,7 @@ class FileNavigator():
                 geofile_data = shape.ShapeReader(geofile)
                 
             elif geotype == 'shapefile_zipped':
-                geofile_zip = os.path.basename(geofile)
-                geofile_shp = os.path.splitext(geofile_zip)[0]
-                geofile_dbf = "%s.%s" % (os.path.splitext(geofile_shp)[0],
-                                         "dbf")
-                geofile_shx = "%s.%s" % (os.path.splitext(geofile_shp)[0],
-                                         "shx")
-
-                tmpdir = temp_mkdtemp()
-                
-                with zipfile(geofile, 'r') as shpzip:
-                    shpzip.extract(geofile_shp, tmpdir)
-                    shpzip.extract(geofile_dbf, tmpdir)
-                    shpzip.extract(geofile_shx, tmpdir)
-                    
-                geofile = "%s/%s" % (tmpdir, geofile_shp)
-                geofile_data = shape.ShapeReader(geofile)
-                    
-                shutil.rmtree(tmpdir)
+                geofile_data = self.parent.fileops.read_geozip_file(geofile)
                 
             elif geotype == 'sqliteshp':
                 geofile_data = shapedb.ShapedbReader(geofile)
@@ -2158,6 +2124,8 @@ class FileNavigator():
             msg = _("Shapefile zipped file")
             logging.info(msg)
             self.parent.add_status_text(msg)
+            
+            geofile_data = self.parent.fileops.read_geozip_file(geofile)
         
         elif geofile_type == 'shapeezy':
             msg = _("Shapeezy file")
@@ -2177,6 +2145,7 @@ class FileNavigator():
                 
             fields_desc = geofile_data.get_fields_description()
         else:
+            #~ TODO: read shpzip zipped prj file
             prj_file = '%s/%s.prj' % (path_list[0], name)
             if os.path.exists(prj_file):
                 with open(prj_file, 'rb') as prjfile:
@@ -2185,7 +2154,9 @@ class FileNavigator():
                 prj_text = no_srs_text
                 
             srs_info = ['(.prj file)', prj_text]
-            geofile_data = shape.ShapeReader(geofile)
+            if geofile_type == 'shape':
+                geofile_data = shape.ShapeReader(geofile)
+                
             fields_data_list = geofile_data.get_fields()[1:]
             fields_desc = map(lambda x: (x[0], "%s,%s,%s" % (x[1],
                                                              x[2],
@@ -2229,6 +2200,8 @@ class FileNavigator():
         geofile_srs_dbs = ["sqliteshp", "sqlitezip", "shapeezy"]
         if geofile_type in geofile_srs_dbs:
             geofile_data = shapedb.ShapedbReader(geofile)
+        elif geofile_type == "shpzip":
+            geofile_data = self.parent.fileops.read_geozip_file(geofile)
         else:
             geofile_data = shape.ShapeReader(geofile)
 
@@ -3316,6 +3289,26 @@ class FileOps():
             #~ TODO: Send message to StatusBar:
                 #~ print "Selection Deleted"
                 #~ print itempath, "Removed"
+
+    def read_geozip_file(self, geozipfile):
+        geozipfile_name = os.path.basename(geozipfile)
+        geofile_shp = os.path.splitext(geozipfile_name)[0]
+        geofile_dbf = "%s.%s" % (os.path.splitext(geofile_shp)[0],
+                                "dbf")
+        geofile_shx = "%s.%s" % (os.path.splitext(geofile_shp)[0],
+                                 "shx")
+        tmpdir = temp_mkdtemp()
+                
+        with zipfile(geozipfile, 'r') as shpzip:
+            shpzip.extract(geofile_shp, tmpdir)
+            shpzip.extract(geofile_dbf, tmpdir)
+            shpzip.extract(geofile_shx, tmpdir)
+                    
+        geofile = "%s/%s" % (tmpdir, geofile_shp)
+        geofile_data = shape.ShapeReader(geofile)
+                    
+        shutil.rmtree(tmpdir)
+        return geofile_data
         
     def compress_element(self):
         pass
