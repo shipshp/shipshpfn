@@ -6,5 +6,7 @@ dist/
 __pycache__/
 *.so
 *~
+shipshpfn/ship.log
+shipshpfn/ship.conf
 
 

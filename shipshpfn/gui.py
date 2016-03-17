@@ -66,12 +66,11 @@ import styles
 
 import gettext
 
-
 if __file__ == os.path.basename(__file__):
     SHIP_PATH = "."
 else:
     SHIP_PATH = os.path.dirname(__file__)
- 
+
 
 class App(tk.Tk):
     ''''''
@@ -194,8 +193,57 @@ class App(tk.Tk):
 													 test_data_path]
         
         self.default_bookmarks = default_bookmarks
-
-
+        
+    def create_default_conf_file(self):
+        config = ConfigParser.RawConfigParser()
+        sections = ["general", "shape", "bookmarks"]
+        for section in sections:
+            config.add_section(section)
+        
+        config_lines = [("general", "winconf", "867x510+257+122"),
+                        ("general", "treespanelwidth", 179),
+                        ("general", "default_lang", "en"),
+                        ("general", "last_dir", "/"),
+                        ("general", "default_homedir", "environhomedir"),
+                        ("general", "history_limit", 10),
+                        ("general", "doubleexts",
+                                    "shp,aux,tif,zip,7z,db,sqlite"),
+                        ("shape", "shpexts", "dbf,shx,prj,sbn,sbx,cpg,shp.xml,shp.qix,shp.err"),
+                        ("shape", "shp_encoding", "utf8"),
+                        ("shape", "shapemode", "True"),
+                        ("shape", "shape_default_tab", "Table"),
+                        ("bookmarks", "ship_sample_data",
+                                      "Sample data;../sample-data"),]
+        
+        for config_line in config_lines:
+            config.set(*config_line)
+        
+        conf_file = '%s/%s' % (SHIP_PATH, 'ship.conf')
+        with open(conf_file, 'wb') as configfile:
+            config.write(configfile)
+        
+        
+    def set_default_confs(self):
+        config_path = os.path.abspath('%s/ship.conf' % SHIP_PATH)
+        if not os.path.exists(config_path):
+            logging.info("Ship configuration file 'ship.conf' " + 
+                         "not exists, creating a new one.")
+            self.create_default_conf_file()
+        
+        self.get_default_confs()
+        
+        #~ Setting custom app window size
+        self.geometry(self.custom_winconf)
+        #~ Language
+        def_lang_code = self.default_language
+        self.set_language(def_lang_code, False)
+        self.set_default_homedir(self.default_homedir)
+        self.history_limit = self.default_history_limit
+        self.shapemode = self.default_shapemode
+        #~ TODO: default shape tab: content|table|(view)
+        #~ self.shape_default_tab = config.get("shape", "shape_default_tab")
+        
+        
     def set_language(self, lang_code, restart=True):
         '''\
         FIX: Refresh window to update lang or
@@ -235,30 +283,14 @@ class App(tk.Tk):
         scroll = ttk.Scrollbar(tree, orient=direction, command=method)
         tree[conf_set] = scroll.set
         scroll.pack(side=pos, fill=axis)
-        
+
 
     def initialize(self):
         self.title('Ship-Shape-File-Navigator')
         
         self.init_logging()
+        self.set_default_confs()
         
-        #~ -------------------------------------------------------------
-        #~ DEFAULT CONFS
-        self.get_default_confs()
-
-        #~ Setting custom app window size
-        self.geometry(self.custom_winconf)
-
-        #~ Language
-        def_lang_code = self.default_language
-        self.set_language(def_lang_code, False)
-
-        self.set_default_homedir(self.default_homedir)
-        self.history_limit = self.default_history_limit
-        self.shapemode = self.default_shapemode
-        #~ TODO: default shape tab: content|table|(view)
-        #~ self.shape_default_tab = config.get("shape", "shape_default_tab")
-
         #~ Creating lists to store directories history
         self.frwddirs = []
         self.backdirs = []
