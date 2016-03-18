@@ -1,5 +1,6 @@
-include README.md
+include README.rst
 include LICENSE
 
 recursive-include data-samples *
 recursive-include docs *
+recursive-include shipshpfn *

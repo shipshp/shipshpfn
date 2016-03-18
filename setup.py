@@ -3,31 +3,31 @@
 try:
     from setuptools import setup, find_packages
 except ImportError:
-    import distutils
+    from distutils.core import setup
 
-with open('README.md') as f:
+with open('README.rst') as f:
     readme = f.read()
 
 with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='Ship-Shape-File-Navigator',
+    name = 'Ship-Shape-File-Navigator',
     
-    version='0.1',
+    version = '0.1',
     
-    url='http://www.shipshapefilenavigator.org',
+    url = 'http://www.shipshapefilenavigator.org',
 
-    description='A shipshape Shapefile File Navigator',
-    long_description=readme,
-    download_url='https://bitbucket.org/shipshp/shipshpfn/downloads',
+    description = 'A shipshape Shapefile File Navigator',
+    long_description = readme,
+    download_url = 'https://bitbucket.org/shipshp/shipshpfn/downloads',
     
-    author='Adrián Eirís Torres',
-    author_email='adrianet82[at]gmail.com',
+    author = 'Adrián Eirís Torres',
+    author_email = 'adrianet82[at]gmail.com',
 
-    license=license,
+    license = license,
     
-    classifiers=[
+    classifiers = [
         'Development Status :: 3 - Alpha',
         'Intended Audience :: End Users/Desktop',
         'Intended Audience :: Developers',
@@ -41,7 +41,8 @@ setup(
         'Programming Language :: Python :: 2 :: Only',
     ],
     
-    keywords='gis shapefile file navigator',
+    keywords = 'gis shapefile file navigator',
     
-    packages=find_packages(exclude=['data-samples', 'docs', 'tests'])
+    packages = ['shipshpfn', 'shipshpfn.lib', 'shipshpfn.tools']
+    #~ packages = find_packages(exclude=['data-samples', 'docs', 'tests'])
 )
