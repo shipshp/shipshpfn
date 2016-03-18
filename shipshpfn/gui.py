@@ -380,15 +380,19 @@ class App(tk.Tk):
         
         # File --
         opendiropt = (self.iconopendir, _("Open directory..."), "Ctrl+O",
-                      self.event.open_directory, False)
+                      self.event.open_directory, True)
         setsessionhome = (self.iconhometmp,
-                          _("Set session home directory..."), "Ctrl+Shift+O",
-                          lambda x=True: self.event.open_directory(x),
+                          _("Set as session home directory"), "Ctrl+H",
+                          self.event.set_as_session_homedir,
+                          False)
+        setdefaulthome = (self.iconhome,
+                          _("Set as default home directory"), "Ctrl+Shift+H",
+                          self.event.set_as_default_homedir,
                           True)
         exitappopt = (self.iconexit, _("Exit"), "Ctrl+Q",
                       self.event.close_app, False)
         
-        filemenuopts = (opendiropt, setsessionhome, exitappopt)
+        filemenuopts = (opendiropt, setsessionhome, setdefaulthome, exitappopt)
         
         # Edit --
         newfolder = (self.iconfolder, _("New Folder"), "Ctrl+N",
@@ -1197,10 +1201,11 @@ class App(tk.Tk):
         self.bind('<Control-Shift-KeyPress-B>', self.event.edit_bookmarks)
         self.bind('<Control-d>', self.event.add_bookmark)
         self.bind('<Control-g>', self.event.get_ddbbs_focus)
+        self.bind('<Control-h>', self.event.set_as_session_homedir)
+        self.bind('<Control-Shift-KeyPress-H>', self.event.set_as_default_homedir)
         self.bind('<Control-l>', self.event.focus_table_navigator)
         self.bind('<Control-n>', lambda x: self.fileops.new_folder())
         self.bind('<Control-o>', lambda x: self.event.open_directory())
-        self.bind('<Control-Shift-KeyPress-O>', lambda x: self.event.open_directory(x))
         self.bind('<Control-p>', lambda x: self.event.show_preferences())
         self.bind('<Control-q>', lambda x: self.event.close_app())
         self.bind('<Control-s>', self.event.focus_table_step)

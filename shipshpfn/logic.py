@@ -402,6 +402,19 @@ class GUIEvent():
             logging.info(msg)
             self.parent.add_status_text(msg)
             self.change_rootdir(directory)
+
+    def set_as_session_homedir(self, *event):
+        current_dir = self.parent.current_dir
+        self.parent.set_default_homedir(current_dir)
+        self.parent.filenav.populate_bookmarks_tree()
+
+    def set_as_default_homedir(self, *event):
+        current_dir = self.parent.current_dir
+        self.parent.set_default_homedir(current_dir)
+        self.parent.configs.set("general", "default_homedir",
+                                current_dir)
+        self.update_preferences()
+        self.parent.filenav.populate_bookmarks_tree()
             
     def show_preferences(self):
         prefs_win = tk.Toplevel(self.parent)
