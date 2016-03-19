@@ -1,0 +1,168 @@
+@import url("better.css");
+
+@font-face {
+  font-family: 'yanone-light';
+  src: url('fonts/Yanone/YanoneKaffeesatz-Light-webfont.eot');
+  src: url('fonts/Yanone/YanoneKaffeesatz-Light-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Yanone/YanoneKaffeesatz-Light-webfont.woff') format('woff'),
+       url('fonts/Yanone/YanoneKaffeesatz-Light-webfont.ttf') format('truetype'),
+       url('fonts/Yanone/YanoneKaffeesatz-Light-webfont.svg#yanone') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* main styles */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+	font-family: "yanone-light";
+    background: -webkit-linear-gradient(left, #7C93B2, #B5C2D4);
+    background: -o-linear-gradient(right, #7C93B2, #B5C2D4);
+    background: -moz-linear-gradient(right, #7C93B2, #B5C2D4);
+    background: linear-gradient(to right, #7C93B2, #B5C2D4);
+}
+
+a, h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
+a {
+    font-size: 1.1em;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+p, li, blockquote {
+	color: #474747;
+}
+
+a:link {
+	color: white;
+}
+
+a:active, a:focus {
+	outline: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+    color: #3D3D3D;
+    text-decoration: none;
+}
+
+h1, h2 { 
+	margin-top: 40px;
+	margin-bottom: 25px;
+	font-weight: normal;
+    font-size: 1.6em;
+}
+
+h3 {
+	font-weight: normal;
+	font-size: 1.3em;
+}
+
+h5 {
+	font-weight: normal;
+}
+
+.related.top {
+	border-bottom: 1px solid white;
+}
+
+.related.bottom {
+	border-top: 1px solid white;
+	padding-top: 3px;
+    margin-bottom: 110px;
+}
+
+.sphinxsidebar {
+	display: none;
+}
+
+.document {
+	padding-top: 15px;
+	padding-bottom: 40px;
+}
+
+.document img {
+	max-width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+pre, tt {
+	background-color: #474747;
+    border-color: #454545;
+    color: #F2F1F0; 
+}
+
+/*---- Emapic header and footer styles ----*/
+
+#header {
+	height: 105px;
+	background-color: #454545;
+}
+
+#header #logo-grunge {
+    margin-left: 8%;
+}
+
+#waveband {
+  height: 26px;
+  background-image: url("images/wave.png");
+  background-position: -120px;
+  margin-bottom: 40px;
+}
+
+.navbar {
+  margin-top: 131px;
+}
+
+#footer {
+	background-color: #474747;
+    padding: 12px 0 8px 0;
+    margin-top: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer .container {
+    margin: auto;
+    max-width: 60rem;
+}
+
+#footer a {
+    color: @primary_darken2;
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+  
+#footer a:hover {
+    color: white;
+}
+
+#footer a:hover img {
+    opacity: 1;
+}
+
+#twitter {
+  margin: 6px;
+}
+
+#twitter img {
+    height: 16px;
+    margin-right: 5px;
+    padding: 5px 5px 2px 6px;
+    opacity: 0.7;
+}

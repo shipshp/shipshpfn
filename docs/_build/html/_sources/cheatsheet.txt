@@ -1,0 +1,102 @@
+
+.. _cheatsheet:
+
+==========
+Cheatsheet
+==========
+
+rst
+===
+
+http://docutils.sourceforge.net/docs/user/rst/quickref.html
+
+https://en.wikipedia.org/wiki/ReStructuredText#Examples_of_reST_markup
+
+http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
+
+Links
+=====
+
+Inline web links::
+
+	‘Link text <http://example.com/>‘_ 
+
+Defining links::
+
+	.. _Wikipedia: http://www.wikipedia.org/
+	.. _`Linux kernel archive`: http://www.kernel.org/
+
+Adding _ to the end of a word::
+
+	Wikipedia_ is a page where you can
+
+	they compiled the Linux kernel archive_ and become
+
+becomes:
+
+.. _Wikipedia: http://www.wikipedia.org/
+.. _`Linux kernel archive`: http://www.kernel.org/
+
+Wikipedia_ is a page where you can
+they compiled the `Linux kernel archive`_ and become
+
+Adding all links to a txt file links definitions as::
+
+	.. _Ship: http://www.shipshapefilenavigator.org/
+	
+and including to the files the directive::
+
+	.. include:: links.txt
+	
+Then we would have all links definitions in a single file and obtain: Ship_
+
+
+Links to docs sections
+----------------------
+
+Section labels::
+	
+	.. _linking-pages:
+
+Reference link::
+
+	:ref:`linking-pages`
+
+Title the reference::
+
+	:ref:`Stuff about Linking Pages <linking-pages>`
+
+Which becomes :ref:`Recopilación de elementos-notacion <cheatsheet>`.
+
+External links
+--------------
+
+As is::
+
+	http://www.sphinx-doc.org
+
+becomes http://www.sphinx-doc.org
+
+Images
+======
+
+Images are included using the **image** directive::
+
+	.. image:: <image-path>
+
+Code
+====
+
+http://www.sphinx-doc.org/en/stable/markup/code.html
+
+Python code
+-----------
+
+.. code:: python
+
+	print "some python code"
+	def test():
+		testing()
+
+
+.. include:: links.txt

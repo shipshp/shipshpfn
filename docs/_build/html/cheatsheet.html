@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Cheatsheet &mdash; Ship-Shape-File-Navigator Documentation</title>
+    
+    <link rel="stylesheet" href="_static/style.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+    <link rel="top" title="Ship-Shape-File-Navigator Documentation" href="index.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  </head>
+  <body>
+<div id="header">
+  <div class="container" id="logo-grunge">
+    <a href="http://www.shipshapefilenavigator.org/"><img src="_static/images/logoheader.png" /></a>
+  </div>
+</div>
+
+<div id="waveband"></div>
+  <div class="related top">
+  <nav id="rellinks">
+    <ul>
+    </ul>
+  </nav>
+  <nav id="breadcrumbs">
+    <ul>
+      <li><a href="index.html">Index</a></li> 
+    </ul>
+  </nav>
+  </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="cheatsheet">
+<span id="id1"></span><h1>Cheatsheet<a class="headerlink" href="#cheatsheet" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="rst">
+<h2>rst<a class="headerlink" href="#rst" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="http://docutils.sourceforge.net/docs/user/rst/quickref.html">http://docutils.sourceforge.net/docs/user/rst/quickref.html</a></p>
+<p><a class="reference external" href="https://en.wikipedia.org/wiki/ReStructuredText#Examples_of_reST_markup">https://en.wikipedia.org/wiki/ReStructuredText#Examples_of_reST_markup</a></p>
+<p><a class="reference external" href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html">http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html</a></p>
+</div>
+<div class="section" id="links">
+<h2>Links<a class="headerlink" href="#links" title="Permalink to this headline">¶</a></h2>
+<p>Inline web links:</p>
+<div class="highlight-python"><div class="highlight"><pre>‘Link text &lt;http://example.com/&gt;‘_
+</pre></div>
+</div>
+<p>Defining links:</p>
+<div class="highlight-python"><div class="highlight"><pre>.. _Wikipedia: http://www.wikipedia.org/
+.. _`Linux kernel archive`: http://www.kernel.org/
+</pre></div>
+</div>
+<p>Adding _ to the end of a word:</p>
+<div class="highlight-python"><div class="highlight"><pre>Wikipedia_ is a page where you can
+
+they compiled the Linux kernel archive_ and become
+</pre></div>
+</div>
+<p>becomes:</p>
+<p><a class="reference external" href="http://www.wikipedia.org/">Wikipedia</a> is a page where you can
+they compiled the <a class="reference external" href="http://www.kernel.org/">Linux kernel archive</a> and become</p>
+<p>Adding all links to a txt file links definitions as:</p>
+<div class="highlight-python"><div class="highlight"><pre>.. _Ship: http://www.shipshapefilenavigator.org/
+</pre></div>
+</div>
+<p>and including to the files the directive:</p>
+<div class="highlight-python"><div class="highlight"><pre>.. include:: links.txt
+</pre></div>
+</div>
+<p>Then we would have all links definitions in a single file and obtain: <a href="#id2"><span class="problematic" id="id3">Ship_</span></a></p>
+<div class="section" id="links-to-docs-sections">
+<h3>Links to docs sections<a class="headerlink" href="#links-to-docs-sections" title="Permalink to this headline">¶</a></h3>
+<p>Section labels:</p>
+<div class="highlight-python"><div class="highlight"><pre>.. _linking-pages:
+</pre></div>
+</div>
+<p>Reference link:</p>
+<div class="highlight-python"><div class="highlight"><pre>:ref:`linking-pages`
+</pre></div>
+</div>
+<p>Title the reference:</p>
+<div class="highlight-python"><div class="highlight"><pre>:ref:`Stuff about Linking Pages &lt;linking-pages&gt;`
+</pre></div>
+</div>
+<p>Which becomes <a class="reference internal" href="#cheatsheet"><em>Recopilación de elementos-notacion</em></a>.</p>
+</div>
+<div class="section" id="external-links">
+<h3>External links<a class="headerlink" href="#external-links" title="Permalink to this headline">¶</a></h3>
+<p>As is:</p>
+<div class="highlight-python"><div class="highlight"><pre>http://www.sphinx-doc.org
+</pre></div>
+</div>
+<p>becomes <a class="reference external" href="http://www.sphinx-doc.org">http://www.sphinx-doc.org</a></p>
+</div>
+</div>
+<div class="section" id="images">
+<h2>Images<a class="headerlink" href="#images" title="Permalink to this headline">¶</a></h2>
+<p>Images are included using the <strong>image</strong> directive:</p>
+<div class="highlight-python"><div class="highlight"><pre>.. image:: &lt;image-path&gt;
+</pre></div>
+</div>
+</div>
+<div class="section" id="code">
+<h2>Code<a class="headerlink" href="#code" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="http://www.sphinx-doc.org/en/stable/markup/code.html">http://www.sphinx-doc.org/en/stable/markup/code.html</a></p>
+<div class="section" id="python-code">
+<h3>Python code<a class="headerlink" href="#python-code" title="Permalink to this headline">¶</a></h3>
+<div class="code python highlight-python"><div class="highlight"><pre><span class="k">print</span> <span class="s">&quot;some python code&quot;</span>
+<span class="k">def</span> <span class="nf">test</span><span class="p">():</span>
+        <span class="n">testing</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Cheatsheet</a><ul>
+<li><a class="reference internal" href="#rst">rst</a></li>
+<li><a class="reference internal" href="#links">Links</a><ul>
+<li><a class="reference internal" href="#links-to-docs-sections">Links to docs sections</a></li>
+<li><a class="reference internal" href="#external-links">External links</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#images">Images</a></li>
+<li><a class="reference internal" href="#code">Code</a><ul>
+<li><a class="reference internal" href="#python-code">Python code</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/cheatsheet.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<form class="search" action="search.html" method="get">
+  <input type="text" name="q"
+   placeholder="type to search" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+  <div class="related bottom">
+  <nav id="rellinks">
+    <ul>
+    </ul>
+  </nav>
+  <nav id="breadcrumbs">
+    <ul>
+      <li><a href="index.html">Index</a></li> 
+    </ul>
+  </nav>
+  </div>
+<div id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-lg-pull-1 col-md-5 col-md-pull-1 pull-right text-right" id="footer-links">
+        <!--
+        <a href="">Contact</a>
+        -->
+      </div>
+<!--
+      <div class="hidden-xs col-lg-5 col-lg-push-1 col-md-5 col-md-push-1 pull-left" id="twitter">
+        <a href="https://twitter.com/shipshpfn"><img src="_static/images/logo_twitter.svg" alt="logo Twitter" /> @shipshpfn</a>
+      </div>
+-->
+      <div class="logo col-xs-2 hidden-sm hidden-md hidden-lg pull-left" id="twitter">
+        <a href="https://twitter.com/shipshpfn"><img src="_static/images/logo_twitter.svg" alt="logo Twitter" /></a>
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>
