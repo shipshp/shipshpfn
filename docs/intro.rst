@@ -11,7 +11,10 @@ Ship allows you navigate through directories and see shapefile's (and some other
 
 With Ship you'll be able to do common file operations like copy, move, rename and delete to the shapefiles as a whole (and soon also apply batch geoprocessing to them).
 
-Version: 0.1 alpha
-Author: Adrián Eirís Torres (adrianet82[at]gmail.com)
-License: GNU GENERAL PUBLIC LICENSE Version 3
-URL: http://www.shipshapefilenavigator.org
+**Version**: 0.1 alpha
+
+**Author**: Adrian Eiris Torres (adrianet82[at]gmail.com)
+
+**License**: GNU GENERAL PUBLIC LICENSE Version 3
+
+**URL**: http://www.shipshapefilenavigator.org

@@ -15,7 +15,7 @@ Documentation
     contribution
   
     
-.. readme, cheatsheet
+.. readme
 
 .. ~ Indices and tables
 .. ~ ==================
