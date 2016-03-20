@@ -118,7 +118,24 @@ pre, tt {
 }
 
 #header #logo-grunge {
-    margin-left: 8%;
+    margin: auto;
+    max-width: 60rem;
+}
+
+@media (min-width: 1200px) {
+    #header #logo-grunge img {
+        margin-left: -9.3%;
+    }
+}
+
+@media (max-width: 768px) {
+    #header #logo-grunge img {
+        width: auto;
+    }
+    #twitter img {
+        width: auto;
+        margin-left: 2%;
+    }
 }
 
 #waveband {
