@@ -185,15 +185,9 @@ class App(tk.Tk):
         for key in default_bookmarks.keys():
             default_bookmarks[key] = default_bookmarks[key].split(';')
         
-        # Adding sample data bookmark
-        if default_bookmarks.has_key('ship_sample_data'):
-			test_data_path = '%s/../data-samples' % os.path.abspath(SHIP_PATH)
-			test_data_path = os.path.normpath(test_data_path)
-			default_bookmarks['ship_sample_data'] = ['Sample data',
-													 test_data_path]
-        
         self.default_bookmarks = default_bookmarks
         
+
     def create_default_conf_file(self):
         config = ConfigParser.RawConfigParser()
         sections = ["general", "shape", "bookmarks"]
@@ -211,9 +205,14 @@ class App(tk.Tk):
                         ("shape", "shpexts", "dbf,shx,prj,sbn,sbx,cpg,shp.xml,shp.qix,shp.err"),
                         ("shape", "shp_encoding", "utf8"),
                         ("shape", "shapemode", "True"),
-                        ("shape", "shape_default_tab", "Table"),
-                        ("bookmarks", "ship_sample_data",
-                                      "Sample data;../sample-data"),]
+                        ("shape", "shape_default_tab", "Table")
+                        ]
+        
+        sample_data_path = '%s/../data-samples' % os.path.abspath(SHIP_PATH)
+        sample_data_path = os.path.normpath(sample_data_path)
+        if os.path.exists(sample_data_path):
+            config_lines.append(("bookmarks", "ship_sample_data",
+                                "Sample data;%s" % sample_data_path))
         
         for config_line in config_lines:
             config.set(*config_line)
@@ -471,13 +470,22 @@ class App(tk.Tk):
         
         shiphelpopt = (self.iconhelp, _("Help"), "F1",
                        self.event.get_help_contents, False)
+        shipwebhelpopt = (self.iconhelp, _("Online help"), "",
+                          self.event.get_online_help_contents, False)
         websiteopt = (self.iconship, _("Website"), "",
                       self.event.get_website, True)
         #~ TODO: "Report Bug" option
         aboutopt = (self.iconinfo, _("About"), "",
                     self.event.show_about, False)
         
-        helpmenuopts = (shiphelpopt, websiteopt, aboutopt)
+        helpmenuopts = [shiphelpopt, websiteopt, aboutopt]
+        
+        local_docs_rel_path = '../docs/_build/html'
+        local_docs_path = os.path.abspath('%s/%s' % (SHIP_PATH,
+                                                     local_docs_rel_path))
+        local_docs_path = os.path.normpath(local_docs_path)
+        if os.path.exists(local_docs_path):
+            helpmenuopts.insert(1, shipwebhelpopt)
         
         # -----
         

@@ -1126,16 +1126,24 @@ class GUIEvent():
         self.parent.wait_window(bkmrks_edit_win)
         
     def get_help_contents(self):
-        #~ FIX: ?? odd behavior for webbrowser module on linux opens
-        #~      file browser not web browser
-        opsys = platform_system()
-        if opsys == 'Windows':
-            #~ FIX: relative to absolute path SHIP_PATH (docs folder?)
-            local_url = os.path.abspath("../docs/index.htm")
-            webbrowser_open("file://%s" % local_url)
+        #~ ???: Works in Windows?
+        #~ opsys = platform_system()
+        #~ if opsys == 'Windows':
+        #~ else:
+        ship_path = self.parent.ship_path
+        local_docs_rel_path = '../docs/_build/html/user_guide.html'
+        local_docs_path = '%s/%s' % (ship_path, local_docs_rel_path)
+        local_docs_abs_path = os.path.abspath(local_docs_path)
+        local_docs_abs_path = os.path.normpath(local_docs_abs_path)
+        if os.path.exists(local_docs_abs_path):
+            webbrowser_open("file://%s" % local_docs_abs_path)
         else:
-            webbrowser_open("http://www.shipshapefilenavigator.org/docs")
+            self.get_online_help_contents()
         
+    def get_online_help_contents(self):
+        url = "http://shipshapefilenavigator.readthedocs.org/en/latest/user_guide.html"
+        webbrowser_open(url)
+    
     def get_website(self):
         url = "http://www.shipshapefilenavigator.org"
         webbrowser_open(url)
