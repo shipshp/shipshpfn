@@ -2,5 +2,5 @@ include README.rst
 include LICENSE
 
 recursive-include data-samples *
-recursive-include docs *
+recursive-include docs/_build/html *
 recursive-include shipshpfn *

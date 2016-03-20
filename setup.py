@@ -41,8 +41,13 @@ setup(
         'Programming Language :: Python :: 2 :: Only',
     ],
     
-    keywords = 'gis shapefile file navigator',
+    keywords = 'gis shapefile shp file navigator',
     
-    packages = ['shipshpfn', 'shipshpfn.lib', 'shipshpfn.tools']
-    #~ packages = find_packages(exclude=['data-samples', 'docs', 'tests'])
+    packages = ['shipshpfn', 'shipshpfn.lib',
+                'shipshpfn.tools', 'shipshpfn.tools.Sandbox'],
+    #~ packages = find_packages(exclude=['data-samples', 'docs', 'tests'],
+    #~ TODO: make recursive add of tools folders with glob
+    package_data = {
+        'shipshpfn': ['icons/*', 'locale/*/*/*']
+    },
 )
