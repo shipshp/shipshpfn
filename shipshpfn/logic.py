@@ -528,7 +528,12 @@ class GUIEvent():
         encodingvar.set(self.parent.shp_encoding)
         encoding_cb = ttk.Combobox(shpprefs, textvariable=encodingvar)
         encoding_cb.grid(row=3, column=3, sticky='e', padx=5, pady=5)
-        encoding_cb['values'] = ('iso-8859-1', 'utf8', 'utf16')
+        encoding_cb['values'] = ('utf8', 'utf16', 'latin1',
+                                 'iso-8859-2', 'iso-8859-4', 'iso-8859-5',
+                                 'iso-8859-6', 'iso-8859-7', 'iso-8859-8',
+                                 'iso-8859-9', 'iso-8859-10',
+                                 'iso-2022-jp', 'big5', 'ascii',
+                                 'cp1252', 'cp1251', 'koi8_r', 'koi8_u')
         encoding_cb.bind('<<ComboboxSelected>>',
                          lambda x: self.set_preference('shape',
                                                        'shp_encoding',
@@ -1886,6 +1891,7 @@ class FileNavigator():
         return sizestring
 
     def populate_list(self, node, pop_path=None):
+        default_encoding = self.parent.def_encoding
         if pop_path:
             node_type = 'directory'
             node_path = pop_path
@@ -1967,7 +1973,8 @@ class FileNavigator():
                 size = 0
                 timestring = ''
                 filelist.insert('', 'end', text=table, image=icon,
-                                values=[unicode(child_path, "utf-8"),
+                                values=[unicode(child_path,
+                                                default_encoding),
                                         child_type, size, timestring])
         
         elif node_type == 'directory':
@@ -2086,7 +2093,8 @@ class FileNavigator():
                 try:
                     filelist.insert('', 'end', text=child_name,
                                     image=icon,
-                                    values=[unicode(child_path, "utf-8"),
+                                    values=[unicode(child_path,
+                                                    default_encoding),
                                             child_type, size, timestring])
                                             #~ treenode])
                     
@@ -2600,6 +2608,7 @@ class FileNavigator():
             self.populate_list('root', pop_path=bookmark_path)
         
     def populate_bookmarks_tree(self, *event):
+        default_encoding = self.parent.def_encoding
         config_default_homedir = self.parent.config_default_homedir
         default_homedir = self.parent.default_homedir
         bookmarks = self.parent.default_bookmarks
@@ -2608,22 +2617,24 @@ class FileNavigator():
 
         bookmarktree.insert('', 'end', 'Home', text=_("Home"),
                         image=self.parent.iconhome,
-                        values=[unicode(config_default_homedir, "utf-8"),
+                        values=[unicode(config_default_homedir,
+                                        default_encoding),
                                 'home'])
            
         if default_homedir != config_default_homedir:
             bookmarktree.insert('', 'end',
                                 text=_("Session Home"),
                                 image=self.parent.iconhometmp,
-                                values=[unicode(default_homedir, "utf-8"),
+                                values=[unicode(default_homedir,
+                                                default_encoding),
                                         'shome'])
 
         lastdir = self.parent.last_dir
         bookmarktree.insert('', 'end', 'Lastsession',
                             text=_("Last session"),
                             image=self.parent.iconlastdir,
-                            values=[unicode(lastdir, "utf-8"),
-                                'last'])
+                            values=[unicode(lastdir, default_encoding),
+                                    'last'])
         
         self.user_bookmark_name = _("User bookmarks") 
         bookmarktree.insert('', 'end', 'Bookmarks', open=True,
@@ -2636,6 +2647,7 @@ class FileNavigator():
         bookmarktree.pack(side='left', fill='both', expand=1)
         
     def populate_bookmarks(self, tree, bookmarks, parent):
+        default_encoding = self.parent.def_encoding
         bookmarks_keys = bookmarks.keys()
         bookmarks_keys.sort()
         
@@ -2649,7 +2661,8 @@ class FileNavigator():
                 icon = self.parent.iconbookmarkerr
 
             tree.insert(parent, 'end', text=bkmrk_name, image=icon,
-                        values=[unicode(bkmrk_path, "utf-8"), bkmrk_id])
+                        values=[unicode(bkmrk_path, default_encoding),
+                                bkmrk_id])
         
     def populate_tools(self):
         tooltree = self.parent.tooltree
@@ -2674,6 +2687,8 @@ class FileNavigator():
         tooltree.pack(side='left', fill='both', expand=1)
         
     def populate_tree(self, tree, node):
+        default_encoding = self.parent.def_encoding
+        
         if tree.set(node, "type") != 'directory':
             return
         
@@ -2790,7 +2805,8 @@ class FileNavigator():
                 #~ -------------------------
      
             id = tree.insert(node, "end", text=child_name, image=icon,
-                             values=[unicode(child_path, "utf-8"),
+                             values=[unicode(child_path,
+                                             default_encoding),
                                      child_type])
      
             if child_type == 'directory':

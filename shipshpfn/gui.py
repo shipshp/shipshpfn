@@ -64,6 +64,7 @@ import logic
 import icons
 import styles
 
+import locale
 import gettext
 
 if __file__ == os.path.basename(__file__):
@@ -233,6 +234,8 @@ class App(tk.Tk):
         
         #~ Setting custom app window size
         self.geometry(self.custom_winconf)
+        #~ Default encoding
+        self.def_encoding = locale.getdefaultlocale()[1]
         #~ Language
         def_lang_code = self.default_language
         self.set_language(def_lang_code, False)
