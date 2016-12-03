@@ -99,6 +99,8 @@ In this way you may also have access to the latest development state of the appl
 Python distutils/setup tools
 ============================
 
+.. Not to install: "python setup.py install"
+.. Source distribution OK: "python setup.py sdist"
 
 
 Virtual environments

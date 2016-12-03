@@ -59,10 +59,26 @@
 <p>Ship-Shape-File-Navigator (Ship) is a standalone FLOSS navigational file manager focused to ease the management of Shapefile files, a de-facto standard format to handle GIS data.</p>
 <p>Ship allows you navigate through directories and see shapefile&#8217;s (and some other geographic formats as well) main characteristics, tabular data, and a preview of their geometries.</p>
 <p>With Ship you&#8217;ll be able to do common file operations like copy, move, rename and delete to the shapefiles as a whole (and soon also apply batch geoprocessing to them).</p>
-<p>Version: 0.1 alpha
-Author: Adrián Eirís Torres (adrianet82[at]gmail.com)
-License: GNU GENERAL PUBLIC LICENSE Version 3
-URL: &lt;<a class="reference external" href="http://www.shipshapefilenavigator.org">http://www.shipshapefilenavigator.org</a>&gt;</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="21%" />
+<col width="79%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td><strong>Version:</strong></td>
+<td>0.1 alpha</td>
+</tr>
+<tr class="row-even"><td><strong>Author:</strong></td>
+<td>Adrian Eiris Torres (adrianet82[at]gmail.com)</td>
+</tr>
+<tr class="row-odd"><td><strong>License:</strong></td>
+<td>GNU GENERAL PUBLIC LICENSE Version 3</td>
+</tr>
+<tr class="row-even"><td><strong>URL:</strong></td>
+<td><a class="reference external" href="http://www.shipshapefilenavigator.org">http://www.shipshapefilenavigator.org</a></td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="installing">
 <h2>Installing<a class="headerlink" href="#installing" title="Permalink to this headline">¶</a></h2>
@@ -70,14 +86,28 @@ URL: &lt;<a class="reference external" href="http://www.shipshapefilenavigator.o
 <p>Windows users only require a Python 2.7 interpreter.
 Linux users should have Python already installed but may have to install &#8216;python-tk&#8217; package (apt-get intall python-tk, yum...).</p>
 <p>Extract Ship to some place in your system and run the shipshpfn/gui.py file,</p>
-<p>from the Ship folder:
-python shipshpfn/gui.py</p>
-<p>or another path:
-python [path_to_Ship]/shipshpfn/gui.py</p>
+<div class="section" id="windows">
+<h3>Windows<a class="headerlink" href="#windows" title="Permalink to this headline">¶</a></h3>
+<p>Execute the shipshpfn/gui.py by double click on the file or through console:</p>
+<p>C:\[path_to_Ship]\shipshpfn\gui.py</p>
+<p>(If you want to avoid the console window just change &#8220;gui.py&#8221; name to &#8220;gui.pyw&#8221; and run as before).</p>
+</div>
+<div class="section" id="linux">
+<h3>Linux<a class="headerlink" href="#linux" title="Permalink to this headline">¶</a></h3>
+<p>from the Ship folder:</p>
+<p>python shipshpfn/gui.py</p>
+<p>or another path:</p>
+<p>python [path_to_Ship]/shipshpfn/gui.py</p>
+<p>More details in the project documentation:</p>
+<p>local: docs/_build/html/installation.html</p>
+<p>online: <a class="reference external" href="http://shipshapefilenavigator.readthedocs.io/en/latest/installation.html">http://shipshapefilenavigator.readthedocs.io/en/latest/installation.html</a></p>
+</div>
 </div>
 <div class="section" id="contributing">
 <h2>Contributing<a class="headerlink" href="#contributing" title="Permalink to this headline">¶</a></h2>
-<p>Please read &lt;<a class="reference external" href="http://www.shipshapefilenavigator.org/docs">http://www.shipshapefilenavigator.org/docs</a>&gt;.</p>
+<p>Please read the contributing section in the project documentation:</p>
+<p>local docs: docs/_build/html/contribution.html</p>
+<p>or online: <a class="reference external" href="http://shipshapefilenavigator.readthedocs.io/en/latest/contribution.html">http://shipshapefilenavigator.readthedocs.io/en/latest/contribution.html</a></p>
 </div>
 </div>
 
@@ -91,7 +121,11 @@ python [path_to_Ship]/shipshpfn/gui.py</p>
   <ul>
 <li><a class="reference internal" href="#">Ship-Shape-File-Navigator</a><ul>
 <li><a class="reference internal" href="#intro">Intro</a></li>
-<li><a class="reference internal" href="#installing">Installing</a></li>
+<li><a class="reference internal" href="#installing">Installing</a><ul>
+<li><a class="reference internal" href="#windows">Windows</a></li>
+<li><a class="reference internal" href="#linux">Linux</a></li>
+</ul>
+</li>
 <li><a class="reference internal" href="#contributing">Contributing</a></li>
 </ul>
 </li>
