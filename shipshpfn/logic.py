@@ -1146,7 +1146,7 @@ class GUIEvent():
             self.get_online_help_contents()
         
     def get_online_help_contents(self):
-        url = "http://shipshapefilenavigator.readthedocs.org/en/latest/user_guide.html"
+        url = "http://shipshapefilenavigator.readthedocs.io/en/latest/user_guide.html"
         webbrowser_open(url)
     
     def get_website(self):
